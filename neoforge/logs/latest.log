@@ -1,67 +1,66 @@
-[301月2025 23:15:48.960] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.115, --fml.fmlVersion, 4.0.35, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
-[301月2025 23:15:48.967] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.6+8-LTS-188
-[301月2025 23:15:48.970] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.6 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[301月2025 23:15:49.420] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[301月2025 23:15:49.538] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/E:/16MCserver-mods/neoforge/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2375!/ Service=ModLauncher Env=SERVER
-[301月2025 23:15:49.881] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.115:server]
-[301月2025 23:15:49.940] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.115-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries\net\neoforged\neoforge\21.1.115\neoforge-21.1.115-universal.jar]], reader: mod manifest]
-[301月2025 23:15:49.962] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[JEI物品管理器] jei-1.21.1-neoforge-19.21.0.247.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:49.974] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[传送石碑／指路石] waystones-neoforge-1.21.1-21.1.5.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:49.988] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[创世神] worldedit-mod-7.3.8.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.009] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[席地而坐] sit-1.21-1.3.5.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.023] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[搬运] carryon-neoforge-1.21-2.2.1.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.032] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[水产业2／水产品2] Aquaculture-1.21.1-2.7.10.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.044] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[汤姆的简易存储] toms_storage-1.21-2.1.0.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.055] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[稀有精英怪] infernalmobs-1.21.3NF.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.063] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[精妙核心] sophisticatedcore-1.21-0.7.13.797.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.074] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[精妙背包] sophisticatedbackpacks-1.21-3.20.26.1151.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.085] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[经验机制改革] Clumps-neoforge-1.21-18.0.0.2.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.096] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[连锁破坏] ftb-ultimine-neoforge-2100.1.0.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.105] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.113] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "artifacts-neoforge-12.0.5.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.124] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "badpackets-neo-0.8.2.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.133] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "balm-neoforge-1.21.1-21.0.23.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.142] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.154] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Clumps-neoforge-1.21.1-19.0.0.1.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.165] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.2.2+1.21.1.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.176] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftb-library-neoforge-2100.1.4.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.184] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.7.3.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.193] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "InventoryProfilesNext-neoforge-1.21-2.1.2.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.205] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "iris-neoforge-1.8.6+mc1.21.1.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.216] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Jade-1.21.1-NeoForge-15.9.2.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.229] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-neoforge-1.21.1-6.0.0-beta.37.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.239] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinforforge-5.7.0-all.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.247] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "libIPN-neoforge-1.21-6.2.1.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.258] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sodium-neoforge-0.6.5+mc1.21.1.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.275] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "twilightforest-1.21.1-4.6.2780-universal.jar" [locator: {mods folder locator at E:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[301月2025 23:15:50.877] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 26 dependencies adding them to mods collection
-[301月2025 23:15:50.877] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.1.115-universal.jar, locator: jarinjar, reader: mod manifest]
-[301月2025 23:15:50.879] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kuma-api-neoforge-21.0.5-SNAPSHOT.jar" [parent: balm-neoforge-1.21.1-21.0.23.jar, locator: jarinjar, reader: mod manifest]
-[301月2025 23:15:50.879] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[301月2025 23:15:50.880] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kfflang-5.7.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar, reader: mod manifest]
-[301月2025 23:15:50.881] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-api-v1-3.4.0+acb05a3919.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[301月2025 23:15:50.882] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "neoforge-coremods-21.1.115.jar" [parent: neoforge-21.1.115-universal.jar, locator: jarinjar, reader: mod manifest]
-[301月2025 23:15:50.882] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "pngj-2.1.0.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.37.jar, locator: jarinjar]
-[301月2025 23:15:50.883] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "common-networking-neoforge-1.0.18-1.21.1.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.37.jar, locator: jarinjar, reader: mod manifest]
-[301月2025 23:15:50.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jcpp-1.4.14.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar]
-[301月2025 23:15:50.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kffmod-5.7.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar, reader: mod manifest]
-[301月2025 23:15:50.885] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-2.1.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
-[301月2025 23:15:50.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-reflect-2.1.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
-[301月2025 23:15:50.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-core-jvm-1.9.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
-[301月2025 23:15:50.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-transformer-2.0.1.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar]
-[301月2025 23:15:50.888] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[301月2025 23:15:50.889] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.caffeinemc.sodium-neoforge-0.6.5+mc1.21.1-service.jar" [parent: sodium-neoforge-0.6.5+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[301月2025 23:15:50.889] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-jdk8-1.9.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
-[301月2025 23:15:50.890] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "kfflib-5.7.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar, reader: mod manifest]
-[301月2025 23:15:50.890] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "s.tf-asm-4.6.2780.jar" [parent: twilightforest-1.21.1-4.6.2780-universal.jar, locator: jarinjar, reader: mod manifest]
-[301月2025 23:15:50.891] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk7-2.1.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
-[301月2025 23:15:50.891] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk8-2.1.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
-[301月2025 23:15:50.892] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[301月2025 23:15:50.893] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-core-jvm-1.7.3.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
-[301月2025 23:15:50.894] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-json-jvm-1.7.3.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
-[301月2025 23:15:50.895] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "expandability-neoforge-12.0.0.jar" [parent: artifacts-neoforge-12.0.5.jar, locator: jarinjar, reader: mod manifest]
-[301月2025 23:15:50.895] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-api-neoforge-2.0.0-1.21.1-SNAPSHOT.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.37.jar, locator: jarinjar, reader: mod manifest]
-[301月2025 23:15:50.899] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[022月2025 20:37:57.664] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.115, --fml.fmlVersion, 4.0.35, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[022月2025 20:37:57.668] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16
+[022月2025 20:37:57.671] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 22.0.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[022月2025 20:37:57.866] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[022月2025 20:37:57.934] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/D:/16MCserver-mods/neoforge/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2375!/ Service=ModLauncher Env=SERVER
+[022月2025 20:37:58.104] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.115:server]
+[022月2025 20:37:58.126] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.115-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries\net\neoforged\neoforge\21.1.115\neoforge-21.1.115-universal.jar]], reader: mod manifest]
+[022月2025 20:37:58.140] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[JEI物品管理器] jei-1.21.1-neoforge-19.21.0.247.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.146] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[传送石碑／指路石] waystones-neoforge-1.21.1-21.1.5.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.152] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[创世神] worldedit-mod-7.3.8.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.165] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[席地而坐] sit-1.21-1.3.5.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.170] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[搬运] carryon-neoforge-1.21-2.2.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.174] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[水产业2／水产品2] Aquaculture-1.21.1-2.7.10.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.180] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[汤姆的简易存储] toms_storage-1.21-2.1.0.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.185] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[精妙核心] sophisticatedcore-1.21-0.7.13.797.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.189] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[精妙背包] sophisticatedbackpacks-1.21-3.20.26.1151.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.194] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[经验机制改革] Clumps-neoforge-1.21-18.0.0.2.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.198] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[连锁破坏] ftb-ultimine-neoforge-2100.1.0.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.202] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.206] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "artifacts-neoforge-12.0.5.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.210] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "badpackets-neo-0.8.2.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.213] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "balm-neoforge-1.21.1-21.0.23.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.216] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.220] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Clumps-neoforge-1.21.1-19.0.0.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.2.2+1.21.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.228] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftb-library-neoforge-2100.1.4.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.231] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.7.3.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.236] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "InventoryProfilesNext-neoforge-1.21-2.1.2.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.241] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "iris-neoforge-1.8.6+mc1.21.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.245] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Jade-1.21.1-NeoForge-15.9.2.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.249] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-neoforge-1.21.1-6.0.0-beta.37.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.254] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinforforge-5.7.0-all.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.258] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "libIPN-neoforge-1.21-6.2.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.262] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sodium-neoforge-0.6.5+mc1.21.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.270] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "twilightforest-1.21.1-4.6.2780-universal.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 26 dependencies adding them to mods collection
+[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.1.115-universal.jar, locator: jarinjar, reader: mod manifest]
+[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kuma-api-neoforge-21.0.5-SNAPSHOT.jar" [parent: balm-neoforge-1.21.1-21.0.23.jar, locator: jarinjar, reader: mod manifest]
+[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kfflang-5.7.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar, reader: mod manifest]
+[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-api-v1-3.4.0+acb05a3919.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "neoforge-coremods-21.1.115.jar" [parent: neoforge-21.1.115-universal.jar, locator: jarinjar, reader: mod manifest]
+[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "pngj-2.1.0.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.37.jar, locator: jarinjar]
+[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "common-networking-neoforge-1.0.18-1.21.1.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.37.jar, locator: jarinjar, reader: mod manifest]
+[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jcpp-1.4.14.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar]
+[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kffmod-5.7.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar, reader: mod manifest]
+[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-2.1.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
+[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-reflect-2.1.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
+[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-core-jvm-1.9.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
+[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-transformer-2.0.1.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar]
+[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.caffeinemc.sodium-neoforge-0.6.5+mc1.21.1-service.jar" [parent: sodium-neoforge-0.6.5+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-jdk8-1.9.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
+[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "kfflib-5.7.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar, reader: mod manifest]
+[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "s.tf-asm-4.6.2780.jar" [parent: twilightforest-1.21.1-4.6.2780-universal.jar, locator: jarinjar, reader: mod manifest]
+[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk7-2.1.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
+[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk8-2.1.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
+[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-core-jvm-1.7.3.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
+[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-json-jvm-1.7.3.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
+[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "expandability-neoforge-12.0.0.jar" [parent: artifacts-neoforge-12.0.5.jar, locator: jarinjar, reader: mod manifest]
+[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-api-neoforge-2.0.0-1.21.1-SNAPSHOT.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.37.jar, locator: jarinjar, reader: mod manifest]
+[022月2025 20:37:58.585] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -83,7 +82,6 @@
 		FTB Library 2100.1.4 (ftblibrary)
 		FTB Ultimine 2100.1.0 (ftbultimine)
 		GeckoLib 4 4.7.3 (geckolib)
-		Infernal Mobs 1.21.3NF (infernalmobs)
 		Inventory Profiles Next 2.1.2 (inventoryprofilesnext)
 		Iris 1.8.6+mc1.21.1 (iris)
 		Jade 15.9.2+neoforge (jade)
@@ -103,278 +101,273 @@
 		Tom's Simple Storage Mod 2.1.0 (toms_storage)
 		Waystones 21.1.5 (waystones)
 		WorldEdit 7.3.8+6939-7d32b45 (worldedit)
-[301月2025 23:15:52.678] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[301月2025 23:15:52.690] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[301月2025 23:15:52.957] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[301月2025 23:15:53.200] [main/WARN] [mixin/]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
-[301月2025 23:15:53.244] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
-[301月2025 23:15:53.248] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[301月2025 23:15:53.255] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
-[301月2025 23:15:53.262] [main/WARN] [mixin/]: Reference map 'waystones.refmap.json' for waystones.mixins.json could not be read. If this is a development environment you can ignore this message
-[301月2025 23:15:53.267] [main/WARN] [mixin/]: Reference map 'clumps.refmap.json' for clumps.mixins.json could not be read. If this is a development environment you can ignore this message
-[301月2025 23:15:53.275] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[301月2025 23:15:53.317] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
-[301月2025 23:15:53.322] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
-[301月2025 23:15:53.326] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
-[301月2025 23:15:53.329] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
-[301月2025 23:15:53.332] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
-[301月2025 23:15:53.339] [main/WARN] [mixin/]: Reference map 'worldedit-neoforge.mixins.refmap.json' for worldedit-neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[301月2025 23:15:53.358] [main/WARN] [mixin/]: Reference map 'ipnext.refmap.json' for mixins.ipnext.json could not be read. If this is a development environment you can ignore this message
-[301月2025 23:15:53.370] [main/WARN] [mixin/]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
-[301月2025 23:15:53.426] [main/INFO] [Sodium/]: Loaded configuration file for Sodium: 43 options available, 1 override(s) found
-[301月2025 23:15:53.675] [main/WARN] [mixin/]: Reference map 'carryon.refmap.json' for carryon.mixins.json could not be read. If this is a development environment you can ignore this message
-[301月2025 23:15:54.566] [main/WARN] [IMixinConfigPlugin/]: Inventory Profiles Next: Doing our own dependency resolving! Because Forge is being Forge....: https://github.com/MinecraftForge/MinecraftForge/issues/9088
-[301月2025 23:15:54.598] [main/WARN] [mixin/]: Error loading class: dev/isxander/controlify/virtualmouse/VirtualMouseHandler (java.lang.ClassNotFoundException: dev.isxander.controlify.virtualmouse.VirtualMouseHandler)
-[301月2025 23:15:54.601] [main/WARN] [mixin/]: @Mixin target dev.isxander.controlify.virtualmouse.VirtualMouseHandler was not found mixins.ipnext.json:MixinVirtualMouseHandler from mod inventoryprofilesnext
-[301月2025 23:15:55.956] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[301月2025 23:16:24.862] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.115, for MC 1.21.1
-[301月2025 23:16:26.552] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[301月2025 23:16:26.634] [modloading-worker-0/INFO] [twilightforest.beans.TFBeanContext/]: Starting Bean Context
-[301月2025 23:16:26.854] [modloading-worker-0/INFO] [twilightforest.beans.TFBeanContext/]: Bean Context loaded in 220 ms
-[301月2025 23:16:27.221] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[301月2025 23:16:27.356] [modloading-worker-0/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
-[301月2025 23:16:37.384] [modloading-sync-worker/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-common.toml
-[301月2025 23:16:37.426] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Tom's Storage Setup starting
-[301月2025 23:16:39.117] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.21.1&ml=neoforge
-[301月2025 23:16:39.488] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.neoforge.NeoForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@100f77d]
-[301月2025 23:16:39.496] [modloading-worker-0/INFO] [com.sk89q.worldedit.neoforge.NeoForgeWorldEdit/]: WorldEdit for NeoForge (version 7.3.8+6939-7d32b45) is loaded
-[301月2025 23:16:39.533] [modloading-worker-0/INFO] [org.anti_ad.mc.common.LogBase/]: [libIPN] Server starting...
-[301月2025 23:16:39.894] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.vanilla.VanillaPlugin
-[301月2025 23:16:39.998] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.universal.UniversalPlugin
-[301月2025 23:16:40.019] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.debug.DebugPlugin
-[301月2025 23:16:40.023] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.core.CorePlugin
-[301月2025 23:16:40.028] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.access.AccessibilityPlugin
-[301月2025 23:16:40.030] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from net.blay09.mods.waystones.compat.JadeIntegration
-[301月2025 23:16:40.033] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from com.tom.storagemod.jade.JadePlugin
-[301月2025 23:16:40.041] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from twilightforest.compat.jade.JadeCompat
-[301月2025 23:16:40.472] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[301月2025 23:16:41.075] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/16MCserver-mods/neoforge/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23148!/assets/.mcassetsroot' uses unexpected schema
-[301月2025 23:16:41.086] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/16MCserver-mods/neoforge/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23148!/data/.mcassetsroot' uses unexpected schema
-[301月2025 23:16:42.576] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [clumps] Found status: BETA Current: 19.0.0.1 Target: 19.0.0.1
-[301月2025 23:16:42.723] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Starting version check at https://neoforge.curseupdate.com/32274/journeymap
-[301月2025 23:16:44.044] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 1.21.1-6.0.0-beta.37 Target: 1.21.1-6.0.0-beta.35
-[301月2025 23:16:44.302] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [toms_storage] Starting version check at https://raw.githubusercontent.com/tom5454/Toms-Storage/master/version-check-nf.json
-[301月2025 23:16:44.458] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
-java.net.ConnectException: null
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:951) ~[java.net.http:?]
+[022月2025 20:37:59.462] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[022月2025 20:37:59.465] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[022月2025 20:37:59.518] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[022月2025 20:37:59.583] [main/WARN] [mixin/]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[022月2025 20:37:59.586] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[022月2025 20:37:59.586] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[022月2025 20:37:59.586] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[022月2025 20:37:59.586] [main/WARN] [mixin/]: Reference map 'waystones.refmap.json' for waystones.mixins.json could not be read. If this is a development environment you can ignore this message
+[022月2025 20:37:59.587] [main/WARN] [mixin/]: Reference map 'clumps.refmap.json' for clumps.mixins.json could not be read. If this is a development environment you can ignore this message
+[022月2025 20:37:59.587] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[022月2025 20:37:59.594] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[022月2025 20:37:59.595] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
+[022月2025 20:37:59.595] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[022月2025 20:37:59.596] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
+[022月2025 20:37:59.596] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[022月2025 20:37:59.598] [main/WARN] [mixin/]: Reference map 'worldedit-neoforge.mixins.refmap.json' for worldedit-neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[022月2025 20:37:59.605] [main/WARN] [mixin/]: Reference map 'ipnext.refmap.json' for mixins.ipnext.json could not be read. If this is a development environment you can ignore this message
+[022月2025 20:37:59.609] [main/WARN] [mixin/]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
+[022月2025 20:37:59.624] [main/INFO] [Sodium/]: Loaded configuration file for Sodium: 43 options available, 1 override(s) found
+[022月2025 20:37:59.698] [main/WARN] [mixin/]: Reference map 'carryon.refmap.json' for carryon.mixins.json could not be read. If this is a development environment you can ignore this message
+[022月2025 20:38:00.034] [main/WARN] [IMixinConfigPlugin/]: Inventory Profiles Next: Doing our own dependency resolving! Because Forge is being Forge....: https://github.com/MinecraftForge/MinecraftForge/issues/9088
+[022月2025 20:38:00.046] [main/WARN] [mixin/]: Error loading class: dev/isxander/controlify/virtualmouse/VirtualMouseHandler (java.lang.ClassNotFoundException: dev.isxander.controlify.virtualmouse.VirtualMouseHandler)
+[022月2025 20:38:00.047] [main/WARN] [mixin/]: @Mixin target dev.isxander.controlify.virtualmouse.VirtualMouseHandler was not found mixins.ipnext.json:MixinVirtualMouseHandler from mod inventoryprofilesnext
+[022月2025 20:38:00.420] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[022月2025 20:38:06.058] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.115, for MC 1.21.1
+[022月2025 20:38:06.082] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[022月2025 20:38:06.117] [modloading-worker-0/INFO] [twilightforest.beans.TFBeanContext/]: Starting Bean Context
+[022月2025 20:38:06.225] [modloading-worker-0/INFO] [twilightforest.beans.TFBeanContext/]: Bean Context loaded in 108 ms
+[022月2025 20:38:06.471] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[022月2025 20:38:06.486] [modloading-worker-0/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
+[022月2025 20:38:08.723] [modloading-sync-worker/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-common.toml
+[022月2025 20:38:08.736] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Tom's Storage Setup starting
+[022月2025 20:38:08.885] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.21.1&ml=neoforge
+[022月2025 20:38:09.073] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.neoforge.NeoForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@fe71a38]
+[022月2025 20:38:09.074] [modloading-worker-0/INFO] [com.sk89q.worldedit.neoforge.NeoForgeWorldEdit/]: WorldEdit for NeoForge (version 7.3.8+6939-7d32b45) is loaded
+[022月2025 20:38:09.087] [modloading-worker-0/INFO] [org.anti_ad.mc.common.LogBase/]: [libIPN] Server starting...
+[022月2025 20:38:09.144] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.vanilla.VanillaPlugin
+[022月2025 20:38:09.159] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.universal.UniversalPlugin
+[022月2025 20:38:09.162] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.debug.DebugPlugin
+[022月2025 20:38:09.163] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.core.CorePlugin
+[022月2025 20:38:09.164] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.access.AccessibilityPlugin
+[022月2025 20:38:09.164] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from net.blay09.mods.waystones.compat.JadeIntegration
+[022月2025 20:38:09.164] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from com.tom.storagemod.jade.JadePlugin
+[022月2025 20:38:09.165] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from twilightforest.compat.jade.JadeCompat
+[022月2025 20:38:09.328] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[022月2025 20:38:09.450] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/16MCserver-mods/neoforge/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23147!/assets/.mcassetsroot' uses unexpected schema
+[022月2025 20:38:09.450] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/16MCserver-mods/neoforge/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23147!/data/.mcassetsroot' uses unexpected schema
+[022月2025 20:38:10.233] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [clumps] Found status: BETA Current: 19.0.0.1 Target: 19.0.0.1
+[022月2025 20:38:10.233] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Starting version check at https://neoforge.curseupdate.com/32274/journeymap
+[022月2025 20:38:10.725] [Worker-Main-3/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.neoforge.NeoForgePlatform
+[022月2025 20:38:10.982] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1906 recipes
+[022月2025 20:38:11.126] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 1.21.1-6.0.0-beta.37 Target: 1.21.1-6.0.0-beta.35
+[022月2025 20:38:11.126] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [toms_storage] Starting version check at https://raw.githubusercontent.com/tom5454/Toms-Storage/master/version-check-nf.json
+[022月2025 20:38:11.159] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:961) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
 	at MC-BOOTSTRAP/fml_loader@4.0.35/net.neoforged.fml.VersionChecker$1.openUrlString(VersionChecker.java:129) ~[loader-4.0.35.jar%2360!/:4.0]
 	at MC-BOOTSTRAP/fml_loader@4.0.35/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:162) ~[loader-4.0.35.jar%2360!/:4.0]
 	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
 	at MC-BOOTSTRAP/fml_loader@4.0.35/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.35.jar%2360!/:4.0]
-Caused by: java.net.ConnectException
-	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1041) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:527) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:138) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:391) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:584) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:428) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:420) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372) ~[?:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719) ~[?:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:299) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1049) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?]
-	... 5 more
-Caused by: java.nio.channels.UnresolvedAddressException
-	at java.base/sun.nio.ch.Net.checkAddress(Net.java:137) ~[?:?]
-	at java.base/sun.nio.ch.Net.checkAddress(Net.java:145) ~[?:?]
-	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842) ~[?:?]
-	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865) ~[?:?]
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210) ~[java.net.http:?]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571) ~[?:?]
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:527) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:138) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:391) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:584) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:428) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:420) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372) ~[?:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719) ~[?:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:299) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1049) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?]
-	... 5 more
-[301月2025 23:16:44.468] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[301月2025 23:16:47.184] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
-java.net.ConnectException: null
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:951) ~[java.net.http:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:378) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:316) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1326) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1274) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1260) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1205) ~[?:?]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1148) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:178) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1143) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1109) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:508) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:324) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:284) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1304) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1274) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1260) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1205) ~[?:?]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1148) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:178) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1143) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1109) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:508) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:324) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148) ~[?:?]
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129) ~[?:?]
+	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:284) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1304) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1274) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1260) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1205) ~[?:?]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1148) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:178) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1143) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1109) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:508) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:324) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+[022月2025 20:38:11.167] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[022月2025 20:38:11.259] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2019 advancements
+[022月2025 20:38:11.265] [main/INFO] [Curios API/]: Loaded 11 curio slots
+[022月2025 20:38:11.268] [main/INFO] [Curios API/]: Loaded 10 curio entities
+[022月2025 20:38:12.302] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:961) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
 	at MC-BOOTSTRAP/fml_loader@4.0.35/net.neoforged.fml.VersionChecker$1.openUrlString(VersionChecker.java:129) ~[loader-4.0.35.jar%2360!/:4.0]
 	at MC-BOOTSTRAP/fml_loader@4.0.35/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:162) ~[loader-4.0.35.jar%2360!/:4.0]
 	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
 	at MC-BOOTSTRAP/fml_loader@4.0.35/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.35.jar%2360!/:4.0]
-Caused by: java.net.ConnectException
-	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1041) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:527) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:138) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:391) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:584) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:428) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:420) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372) ~[?:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719) ~[?:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:299) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1049) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?]
-	... 5 more
-Caused by: java.nio.channels.UnresolvedAddressException
-	at java.base/sun.nio.ch.Net.checkAddress(Net.java:137) ~[?:?]
-	at java.base/sun.nio.ch.Net.checkAddress(Net.java:145) ~[?:?]
-	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842) ~[?:?]
-	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865) ~[?:?]
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210) ~[java.net.http:?]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571) ~[?:?]
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:527) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:138) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:391) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:584) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:428) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:420) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372) ~[?:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719) ~[?:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:299) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1049) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?]
-	... 5 more
-[301月2025 23:16:49.516] [Worker-Main-1/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.neoforge.NeoForgePlatform
-[301月2025 23:16:52.027] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1906 recipes
-[301月2025 23:16:53.699] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2019 advancements
-[301月2025 23:16:53.740] [main/INFO] [Curios API/]: Loaded 11 curio slots
-[301月2025 23:16:53.767] [main/INFO] [Curios API/]: Loaded 10 curio entities
-[301月2025 23:17:03.017] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
-[301月2025 23:17:03.047] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[301月2025 23:17:03.062] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[301月2025 23:17:03.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[301月2025 23:17:03.390] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[301月2025 23:17:03.570] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[301月2025 23:17:03.668] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[301月2025 23:17:03.670] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[301月2025 23:17:03.674] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[301月2025 23:17:03.677] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[301月2025 23:17:03.741] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[301月2025 23:17:03.777] [Server thread/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-server.toml
-[301月2025 23:17:04.054] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[301月2025 23:17:08.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[301月2025 23:17:11.285] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[301月2025 23:17:11.314] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[301月2025 23:17:11.317] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[301月2025 23:17:11.319] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[301月2025 23:17:11.324] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[301月2025 23:17:11.362] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[301月2025 23:17:11.894] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3055 ms
-[301月2025 23:17:11.909] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.182s)! For help, type "help"
-[301月2025 23:17:12.084] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[301月2025 23:17:12.126] [Server thread/INFO] [journeymap/]: Loaded null for service interface journeymap.api.services.WebMapService
-[301月2025 23:17:12.165] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.NeoForgeClientHooks@38abc2e0 for service interface journeymap.api.services.ClientPlatformService
-[301月2025 23:17:12.195] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.NeoForgeHooks@6be654b2 for service interface journeymap.api.services.CommonPlatformService
-[301月2025 23:17:17.244] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:iron_shovel
-[301月2025 23:17:17.247] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:iron_pickaxe
-[301月2025 23:17:17.251] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:iron_axe
-[301月2025 23:17:17.252] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:iron_sword
-[301月2025 23:17:17.255] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:iron_hoe
-[301月2025 23:17:17.257] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:chainmail_helmet
-[301月2025 23:17:17.261] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:chainmail_boots
-[301月2025 23:17:17.264] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:chainmail_chestplate
-[301月2025 23:17:17.272] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:chainmail_leggings
-[301月2025 23:17:17.275] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:iron_helmet
-[301月2025 23:17:17.276] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:iron_boots
-[301月2025 23:17:17.278] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:iron_chestplate
-[301月2025 23:17:17.283] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:iron_leggings
-[301月2025 23:17:17.285] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 5 minecraft:cookie
-[301月2025 23:17:17.288] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 14
-[301月2025 23:17:17.291] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:iron_hoe
-[301月2025 23:17:17.294] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:bow
-[301月2025 23:17:17.305] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:chainmail_helmet
-[301月2025 23:17:17.307] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:chainmail_boots
-[301月2025 23:17:17.309] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:chainmail_chestplate
-[301月2025 23:17:17.311] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:chainmail_leggings
-[301月2025 23:17:17.313] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:iron_helmet
-[301月2025 23:17:17.316] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:iron_boots
-[301月2025 23:17:17.317] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:iron_chestplate
-[301月2025 23:17:17.321] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:iron_leggings
-[301月2025 23:17:17.322] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:golden_helmet
-[301月2025 23:17:17.328] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:golden_boots
-[301月2025 23:17:17.335] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:golden_chestplate
-[301月2025 23:17:17.337] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:golden_leggings
-[301月2025 23:17:17.338] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 3 minecraft:golden_apple
-[301月2025 23:17:17.339] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 5 minecraft:blaze_powder
-[301月2025 23:17:17.343] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:enchanted_book
-[301月2025 23:17:17.344] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 17
-[301月2025 23:17:17.346] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:enchanted_book
-[301月2025 23:17:17.349] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 3 minecraft:diamond
-[301月2025 23:17:17.350] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:diamond_sword
-[301月2025 23:17:17.351] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:diamond_axe
-[301月2025 23:17:17.354] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:diamond_hoe
-[301月2025 23:17:17.356] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:diamond_pickaxe
-[301月2025 23:17:17.366] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:diamond_shovel
-[301月2025 23:17:17.368] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:chainmail_helmet
-[301月2025 23:17:17.370] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:chainmail_boots
-[301月2025 23:17:17.372] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:chainmail_chestplate
-[301月2025 23:17:17.374] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:chainmail_leggings
-[301月2025 23:17:17.378] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:diamond_helmet
-[301月2025 23:17:17.383] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:diamond_boots
-[301月2025 23:17:17.383] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:diamond_chestplate
-[301月2025 23:17:17.386] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 1 minecraft:diamond_leggings
-[301月2025 23:17:17.393] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser identified itemstack 3 minecraft:ender_pearl
-[301月2025 23:17:17.397] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 16
-[301月2025 23:17:17.402] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! Modifiers ready: 28
-[301月2025 23:17:17.416] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! config file at: E:\16MCserver-mods\neoforge\config\infernalmobs.cfg
-[301月2025 23:17:38.032] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: test[/[fdfd::1a0b:61ac]:64177] logged in with entity id 18 at (75.5, 106.0, -6.5)
-[301月2025 23:17:38.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: test joined the game
-[301月2025 23:17:42.868] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2049ms or 40 ticks behind
-[301月2025 23:18:01.586] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3768ms or 75 ticks behind
-[301月2025 23:18:09.826] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: test lost connection: Disconnected
-[301月2025 23:18:09.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: test left the game
+Caused by: javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at java.net.http/jdk.internal.net.http.common.SSLTube.checkForHandshake(SSLTube.java:595) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLTube$SSLTubeFlowDelegate.checkForHandshake(SSLTube.java:156) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.errorCommon(SSLFlowDelegate.java:383) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.onError(SubscriberWrapper.java:412) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadSubscription.signalCompletion(SocketTube.java:645) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:829) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1476) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1421) ~[java.net.http:?]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1421) ~[java.net.http:?]
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1476) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1421) ~[java.net.http:?]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1421) ~[java.net.http:?]
+[022月2025 20:38:13.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[022月2025 20:38:13.223] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[022月2025 20:38:13.223] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[022月2025 20:38:13.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[022月2025 20:38:13.272] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[022月2025 20:38:13.331] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[022月2025 20:38:13.367] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[022月2025 20:38:13.368] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[022月2025 20:38:13.368] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[022月2025 20:38:13.368] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[022月2025 20:38:13.385] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[022月2025 20:38:13.386] [Server thread/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-server.toml
+[022月2025 20:38:13.446] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[022月2025 20:38:14.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[022月2025 20:38:14.495] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[022月2025 20:38:14.650] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 536 ms
+[022月2025 20:38:14.651] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.271s)! For help, type "help"
+[022月2025 20:38:14.700] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[022月2025 20:38:14.705] [Server thread/INFO] [journeymap/]: Loaded null for service interface journeymap.api.services.WebMapService
+[022月2025 20:38:14.706] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.NeoForgeClientHooks@7d03867f for service interface journeymap.api.services.ClientPlatformService
+[022月2025 20:38:14.707] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.NeoForgeHooks@50c0cb8a for service interface journeymap.api.services.CommonPlatformService
+[022月2025 20:45:18.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 0 of a max of 20 players online: 
+[022月2025 20:46:13.868] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kobe_bryant[/127.0.0.1:55643] logged in with entity id 24 at (279.61947000215275, 3.0, 56.59791449347907)
+[022月2025 20:46:13.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kobe_bryant joined the game
+[022月2025 20:51:55.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set the time to 1]
+[022月2025 20:52:08.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Spectator Mode]
+[022月2025 20:52:11.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
+[022月2025 20:52:33.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Survival Mode]
+[022月2025 20:54:57.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
+[022月2025 20:59:10.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kobe_bryant has made the advancement [With Fire It Writes]
+[022月2025 20:59:42.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kobe_bryant was killed
+[022月2025 20:59:42.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Killed kobe_bryant]
+[022月2025 21:03:15.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Spectator Mode]
+[022月2025 21:03:18.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Survival Mode]
+[022月2025 21:03:25.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
+[022月2025 21:03:39.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Survival Mode]
+[022月2025 21:04:03.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
+[022月2025 21:04:51.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Survival Mode]
+[022月2025 21:05:01.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kobe_bryant was slain by Mosquito Swarm
+[022月2025 21:05:02.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Spectator Mode]
+[022月2025 21:05:05.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
+[022月2025 21:05:29.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kobe_bryant was killed
+[022月2025 21:05:29.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Killed 243 entities]
+[022月2025 21:06:44.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Spectator Mode]
+[022月2025 21:06:49.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
+[022月2025 21:07:04.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Survival Mode]
+[022月2025 21:07:29.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
+[022月2025 21:12:26.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Survival Mode]
+[022月2025 21:12:46.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
+[022月2025 21:12:54.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Survival Mode]
+[022月2025 21:13:02.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
+[022月2025 21:13:23.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Survival Mode]
+[022月2025 21:14:24.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
+[022月2025 21:19:05.691] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kobe_bryant lost connection: Disconnected
+[022月2025 21:19:05.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kobe_bryant left the game
+[022月2025 21:24:08.023] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kobe_bryant[/127.0.0.1:55714] logged in with entity id 7572 at (101.30000001192093, 115.0, -43.20510984785839)
+[022月2025 21:24:08.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kobe_bryant joined the game
+[022月2025 21:24:19.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Stopping the server]
+[022月2025 21:24:19.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[022月2025 21:24:19.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[022月2025 21:24:19.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[022月2025 21:24:19.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[022月2025 21:24:20.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[022月2025 21:24:20.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[022月2025 21:24:20.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[022月2025 21:24:20.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[022月2025 21:24:20.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[022月2025 21:24:20.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[022月2025 21:24:20.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[022月2025 21:24:20.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

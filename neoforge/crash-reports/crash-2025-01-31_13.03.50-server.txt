@@ -1,0 +1,211 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 2025-01-31 13:03:50
+Description: Ticking entity
+
+java.lang.UnsupportedOperationException: Payload infernalmobs:airchoke may not be sent to the client!
+	at TRANSFORMER/neoforge@21.1.115/net.neoforged.neoforge.network.registration.NetworkRegistry.checkPacket(NetworkRegistry.java:446) ~[neoforge-21.1.115-universal.jar%23149!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerCommonPacketListenerImpl.send(ServerCommonPacketListenerImpl.java:178) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,re:computing_frames,re:classloading,pl:mixin:APP:badpackets.mixins.json:MixinServerCommonPacketListenerImpl from mod badpackets,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerCommonPacketListenerImpl.send(ServerCommonPacketListenerImpl.java:173) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,re:computing_frames,re:classloading,pl:mixin:APP:badpackets.mixins.json:MixinServerCommonPacketListenerImpl from mod badpackets,pl:mixin:A}
+	at TRANSFORMER/neoforge@21.1.115/net.neoforged.neoforge.network.PacketDistributor.sendToPlayer(PacketDistributor.java:51) ~[neoforge-21.1.115-universal.jar%23149!/:?] {re:classloading}
+	at TRANSFORMER/infernalmobs@1.21.3NF/atomicstryker.infernalmobs.common.InfernalMobsCore.sendAirPacket(InfernalMobsCore.java:800) ~[%5B稀有精英怪%5D%20infernalmobs-1.21.3NF.jar%23157!/:1.21.3NF] {re:classloading}
+	at TRANSFORMER/infernalmobs@1.21.3NF/atomicstryker.infernalmobs.common.mods.MM_Choke.updateAir(MM_Choke.java:94) ~[%5B稀有精英怪%5D%20infernalmobs-1.21.3NF.jar%23157!/:1.21.3NF] {re:classloading}
+	at TRANSFORMER/infernalmobs@1.21.3NF/atomicstryker.infernalmobs.common.mods.MM_Choke.onUpdate(MM_Choke.java:40) ~[%5B稀有精英怪%5D%20infernalmobs-1.21.3NF.jar%23157!/:1.21.3NF] {re:classloading}
+	at TRANSFORMER/infernalmobs@1.21.3NF/atomicstryker.infernalmobs.common.MobModifier.onUpdate(MobModifier.java:249) ~[%5B稀有精英怪%5D%20infernalmobs-1.21.3NF.jar%23157!/:1.21.3NF] {re:classloading}
+	at TRANSFORMER/infernalmobs@1.21.3NF/atomicstryker.infernalmobs.common.mods.MM_Regen.onUpdate(MM_Regen.java:39) ~[%5B稀有精英怪%5D%20infernalmobs-1.21.3NF.jar%23157!/:1.21.3NF] {re:classloading}
+	at TRANSFORMER/infernalmobs@1.21.3NF/atomicstryker.infernalmobs.common.MobModifier.onUpdate(MobModifier.java:249) ~[%5B稀有精英怪%5D%20infernalmobs-1.21.3NF.jar%23157!/:1.21.3NF] {re:classloading}
+	at TRANSFORMER/infernalmobs@1.21.3NF/atomicstryker.infernalmobs.common.EntityEventHandler.onEntityLivingUpdate(EntityEventHandler.java:175) ~[%5B稀有精英怪%5D%20infernalmobs-1.21.3NF.jar%23157!/:1.21.3NF] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:350) ~[bus-8.0.2.jar%2367!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:315) ~[bus-8.0.2.jar%2367!/:?] {}
+	at TRANSFORMER/neoforge@21.1.115/net.neoforged.neoforge.event.EventHooks.fireEntityTickPost(EventHooks.java:944) ~[neoforge-21.1.115-universal.jar%23149!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:775) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.Level.guardEntityTick(Level.java:570) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:computing_frames,pl:accesstransformer:B,xf:fml:default,re:mixin,pl:accesstransformer:B,xf:fml:default,re:classloading,pl:accesstransformer:B,xf:fml:default}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.lambda$tick$2(ServerLevel.java:420) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:54) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:400) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1037) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.neoforge.mixins.json:MinecraftServerMixin from mod balm,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:320) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:917) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.neoforge.mixins.json:MinecraftServerMixin from mod balm,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:707) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.neoforge.mixins.json:MinecraftServerMixin from mod balm,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.neoforge.mixins.json:MinecraftServerMixin from mod balm,pl:mixin:A}
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?] {re:mixin}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at TRANSFORMER/neoforge@21.1.115/net.neoforged.neoforge.network.registration.NetworkRegistry.checkPacket(NetworkRegistry.java:446) ~[neoforge-21.1.115-universal.jar%23149!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerCommonPacketListenerImpl.send(ServerCommonPacketListenerImpl.java:178) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,re:computing_frames,re:classloading,pl:mixin:APP:badpackets.mixins.json:MixinServerCommonPacketListenerImpl from mod badpackets,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerCommonPacketListenerImpl.send(ServerCommonPacketListenerImpl.java:173) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,re:computing_frames,re:classloading,pl:mixin:APP:badpackets.mixins.json:MixinServerCommonPacketListenerImpl from mod badpackets,pl:mixin:A}
+	at TRANSFORMER/neoforge@21.1.115/net.neoforged.neoforge.network.PacketDistributor.sendToPlayer(PacketDistributor.java:51) ~[neoforge-21.1.115-universal.jar%23149!/:?] {re:classloading}
+	at TRANSFORMER/infernalmobs@1.21.3NF/atomicstryker.infernalmobs.common.InfernalMobsCore.sendAirPacket(InfernalMobsCore.java:800) ~[%5B稀有精英怪%5D%20infernalmobs-1.21.3NF.jar%23157!/:1.21.3NF] {re:classloading}
+	at TRANSFORMER/infernalmobs@1.21.3NF/atomicstryker.infernalmobs.common.mods.MM_Choke.updateAir(MM_Choke.java:94) ~[%5B稀有精英怪%5D%20infernalmobs-1.21.3NF.jar%23157!/:1.21.3NF] {re:classloading}
+	at TRANSFORMER/infernalmobs@1.21.3NF/atomicstryker.infernalmobs.common.mods.MM_Choke.onUpdate(MM_Choke.java:40) ~[%5B稀有精英怪%5D%20infernalmobs-1.21.3NF.jar%23157!/:1.21.3NF] {re:classloading}
+	at TRANSFORMER/infernalmobs@1.21.3NF/atomicstryker.infernalmobs.common.MobModifier.onUpdate(MobModifier.java:249) ~[%5B稀有精英怪%5D%20infernalmobs-1.21.3NF.jar%23157!/:1.21.3NF] {re:classloading}
+	at TRANSFORMER/infernalmobs@1.21.3NF/atomicstryker.infernalmobs.common.mods.MM_Regen.onUpdate(MM_Regen.java:39) ~[%5B稀有精英怪%5D%20infernalmobs-1.21.3NF.jar%23157!/:1.21.3NF] {re:classloading}
+	at TRANSFORMER/infernalmobs@1.21.3NF/atomicstryker.infernalmobs.common.MobModifier.onUpdate(MobModifier.java:249) ~[%5B稀有精英怪%5D%20infernalmobs-1.21.3NF.jar%23157!/:1.21.3NF] {re:classloading}
+	at TRANSFORMER/infernalmobs@1.21.3NF/atomicstryker.infernalmobs.common.EntityEventHandler.onEntityLivingUpdate(EntityEventHandler.java:175) ~[%5B稀有精英怪%5D%20infernalmobs-1.21.3NF.jar%23157!/:1.21.3NF] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:350) ~[bus-8.0.2.jar%2367!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:315) ~[bus-8.0.2.jar%2367!/:?] {}
+	at TRANSFORMER/neoforge@21.1.115/net.neoforged.neoforge.event.EventHooks.fireEntityTickPost(EventHooks.java:944) ~[neoforge-21.1.115-universal.jar%23149!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:775) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.Level.guardEntityTick(Level.java:570) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:computing_frames,pl:accesstransformer:B,xf:fml:default,re:mixin,pl:accesstransformer:B,xf:fml:default,re:classloading,pl:accesstransformer:B,xf:fml:default}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.lambda$tick$2(ServerLevel.java:420) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:54) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:classloading}
+-- Entity being ticked --
+Details:
+	Entity Type: minecraft:creeper (net.minecraft.world.entity.monster.Creeper)
+	Entity ID: 31993
+	Entity Name: Creeper
+	Entity's Exact location: 1370.67, -23.00, -531.57
+	Entity's Block location: World: (1370,-23,-532), Section: (at 10,9,12 in 85,-2,-34; chunk contains blocks 1360,-32,-544 to 1375,255,-529), Region: (2,-2; contains chunks 64,-64 to 95,-33, blocks 1024,-32,-1024 to 1535,255,-513)
+	Entity's Momentum: -0.01, -0.08, -0.05
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.Level.guardEntityTick(Level.java:570) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:computing_frames,pl:accesstransformer:B,xf:fml:default,re:mixin,pl:accesstransformer:B,xf:fml:default,re:classloading,pl:accesstransformer:B,xf:fml:default}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.lambda$tick$2(ServerLevel.java:420) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:54) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:400) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1037) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.neoforge.mixins.json:MinecraftServerMixin from mod balm,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:320) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:917) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.neoforge.mixins.json:MinecraftServerMixin from mod balm,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:707) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.neoforge.mixins.json:MinecraftServerMixin from mod balm,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.neoforge.mixins.json:MinecraftServerMixin from mod balm,pl:mixin:A}
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?] {re:mixin}
+
+
+-- Affected level --
+Details:
+	All players: 2 total; [ServerPlayer['Kousaka_Haruka'/63, l='ServerLevel[world]', x=1363.99, y=-21.98, z=-490.98], ServerPlayer['Yahooingalaxy'/1249, l='ServerLevel[world]', x=1369.55, y=-23.00, z=-524.31]]
+	Chunk stats: 2303
+	Level dimension: twilightforest:twilight_forest
+	Derived: true
+	Level spawn location: World: (68,107,-12), Section: (at 4,11,4 in 4,6,-1; chunk contains blocks 64,-32,-16 to 79,255,-1), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-32,-512 to 511,255,-1)
+	Level time: 4878338 game time, 420078 day time
+	Level name: world
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Commands: true
+	Level weather: Rain time: 9199 (now: false), thunder time: 8527 (now: false)
+	Known server brands: vanilla, Paper, neoforge
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+	Loaded entity count: 238
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.fillReportDetails(ServerLevel.java:1718) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1040) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.neoforge.mixins.json:MinecraftServerMixin from mod balm,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:320) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:917) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.neoforge.mixins.json:MinecraftServerMixin from mod balm,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:707) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.neoforge.mixins.json:MinecraftServerMixin from mod balm,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[server-1.21.1-20240808.144430-srg.jar%23148!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.neoforge.mixins.json:MinecraftServerMixin from mod balm,pl:mixin:A}
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?] {re:mixin}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 22.0.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 143507912 bytes (136 MiB) / 1514143744 bytes (1444 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 16
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 9 5900HX with Radeon Graphics        
+	Identifier: AuthenticAMD Family 25 Model 80 Stepping 0
+	Microarchitecture: Zen 3
+	Frequency (GHz): 3.29
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: NVIDIA GeForce RTX 3060 Laptop GPU
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 6144.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.15.6081
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 22308.31
+	Virtual memory used (MiB): 18318.99
+	Swap memory total (MiB): 6022.30
+	Swap memory used (MiB): 283.29
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 5837.71, total: 102407.00
+	Space in storage for workdir (MiB): available: 40812.29, total: 384962.00
+	JVM Flags: 1 total; -Xmx4G
+	Server Running: true
+	Player Count: 2 / 20; [ServerPlayer['Kousaka_Haruka'/63, l='ServerLevel[world]', x=1363.99, y=-21.98, z=-490.98], ServerPlayer['Yahooingalaxy'/1249, l='ServerLevel[world]', x=1369.55, y=-23.00, z=-524.31]]
+	Active Data Packs: vanilla, file/bukkit, mod_data, mod/libipn (incompatible), mod/kuma_api (incompatible), mod/fabric_api_base, mod/fabric_renderer_api_v1, mod/jade (incompatible), mod/geckolib, mod/jei (incompatible), mod/commonnetworking (incompatible), mod/kotlinforforge (incompatible), mod/sophisticatedcore (incompatible), mod/curios (incompatible), mod/waystones (incompatible), mod/clumps (incompatible), mod/journeymap (incompatible), mod/neoforge, mod/sit, mod/artifacts, mod/fabric_block_view_api_v2, mod/badpackets (incompatible), mod/iris, mod/ftbultimine (incompatible), mod/sophisticatedbackpacks (incompatible), mod/worldedit (incompatible), mod/inventoryprofilesnext (incompatible), mod/architectury (incompatible), mod/ftblibrary (incompatible), mod/balm (incompatible), mod/fabric_rendering_data_attachment_v1, mod/aquaculture (incompatible), mod/sodium, mod/carryon (incompatible), mod/cloth_config (incompatible), mod/toms_storage, mod/expandability, mod/journeymap_api (incompatible), mod/twilightforest, mod/infernalmobs (incompatible)
+	Available Data Packs: bundle, trade_rebalance, vanilla, file/bukkit, mod/aquaculture (incompatible), mod/architectury (incompatible), mod/artifacts, mod/badpackets (incompatible), mod/balm (incompatible), mod/carryon (incompatible), mod/cloth_config (incompatible), mod/clumps (incompatible), mod/commonnetworking (incompatible), mod/curios (incompatible), mod/expandability, mod/fabric_api_base, mod/fabric_block_view_api_v2, mod/fabric_renderer_api_v1, mod/fabric_rendering_data_attachment_v1, mod/ftblibrary (incompatible), mod/ftbultimine (incompatible), mod/geckolib, mod/infernalmobs (incompatible), mod/inventoryprofilesnext (incompatible), mod/iris, mod/jade (incompatible), mod/jei (incompatible), mod/journeymap (incompatible), mod/journeymap_api (incompatible), mod/kotlinforforge (incompatible), mod/kuma_api (incompatible), mod/libipn (incompatible), mod/neoforge, mod/sit, mod/sodium, mod/sophisticatedbackpacks (incompatible), mod/sophisticatedcore (incompatible), mod/toms_storage, mod/twilightforest, mod/waystones (incompatible), mod/worldedit (incompatible), mod_data
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	World Seed: -7512197374154379512
+	Is Modded: Definitely; Server brand changed to 'neoforge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: forgeserver
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.35.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.35.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.35.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		kotlinforforge@5.7.0
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		[水产业2／水产品2] Aquaculture-1.21.1-2.7.10.jar         |Aquaculture 2                 |aquaculture                   |2.7.10              |Manifest: NOSIGNATURE
+		architectury-13.0.8-neoforge.jar                  |Architectury                  |architectury                  |13.0.8              |Manifest: NOSIGNATURE
+		artifacts-neoforge-12.0.5.jar                     |Artifacts                     |artifacts                     |12.0.5              |Manifest: NOSIGNATURE
+		badpackets-neo-0.8.2.jar                          |Bad Packets                   |badpackets                    |0.8.2               |Manifest: NOSIGNATURE
+		balm-neoforge-1.21.1-21.0.23.jar                  |Balm                          |balm                          |21.0.23             |Manifest: NOSIGNATURE
+		[搬运] carryon-neoforge-1.21-2.2.1.jar              |Carry On                      |carryon                       |2.2.1               |Manifest: NOSIGNATURE
+		cloth-config-15.0.140-neoforge.jar                |Cloth Config v15 API          |cloth_config                  |15.0.140            |Manifest: NOSIGNATURE
+		Clumps-neoforge-1.21.1-19.0.0.1.jar               |Clumps                        |clumps                        |19.0.0.1            |Manifest: NOSIGNATURE
+		common-networking-neoforge-1.0.18-1.21.1.jar      |Common Networking             |commonnetworking              |1.0.18-1.21.1       |Manifest: NOSIGNATURE
+		curios-neoforge-9.2.2+1.21.1.jar                  |Curios API                    |curios                        |9.2.2+1.21.1        |Manifest: NOSIGNATURE
+		expandability-neoforge-12.0.0.jar                 |ExpandAbility                 |expandability                 |12.0.0              |Manifest: NOSIGNATURE
+		fabric-api-base-0.4.42+d1308ded19.jar             |Forgified Fabric API Base     |fabric_api_base               |0.4.42+d1308ded19   |Manifest: NOSIGNATURE
+		fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar    |Forgified Fabric BlockView API|fabric_block_view_api_v2      |1.0.10+9afaaf8c19   |Manifest: NOSIGNATURE
+		fabric-renderer-api-v1-3.4.0+acb05a3919.jar       |Forgified Fabric Renderer API |fabric_renderer_api_v1        |3.4.0+acb05a3919    |Manifest: NOSIGNATURE
+		fabric-rendering-data-attachment-v1-0.3.48+73761d2|Forgified Fabric Rendering Dat|fabric_rendering_data_attachme|0.3.48+73761d2e19   |Manifest: NOSIGNATURE
+		ftb-library-neoforge-2100.1.4.jar                 |FTB Library                   |ftblibrary                    |2100.1.4            |Manifest: NOSIGNATURE
+		[连锁破坏] ftb-ultimine-neoforge-2100.1.0.jar         |FTB Ultimine                  |ftbultimine                   |2100.1.0            |Manifest: NOSIGNATURE
+		geckolib-neoforge-1.21.1-4.7.3.jar                |GeckoLib 4                    |geckolib                      |4.7.3               |Manifest: NOSIGNATURE
+		[稀有精英怪] infernalmobs-1.21.3NF.jar                 |Infernal Mobs                 |infernalmobs                  |1.21.3NF            |Manifest: NOSIGNATURE
+		InventoryProfilesNext-neoforge-1.21-2.1.2.jar     |Inventory Profiles Next       |inventoryprofilesnext         |2.1.2               |Manifest: NOSIGNATURE
+		iris-neoforge-1.8.6+mc1.21.1.jar                  |Iris                          |iris                          |1.8.6+mc1.21.1      |Manifest: NOSIGNATURE
+		Jade-1.21.1-NeoForge-15.9.2.jar                   |Jade                          |jade                          |15.9.2+neoforge     |Manifest: NOSIGNATURE
+		journeymap-neoforge-1.21.1-6.0.0-beta.37.jar      |Journeymap                    |journeymap                    |1.21.1-6.0.0-beta.37|Manifest: NOSIGNATURE
+		journeymap-api-neoforge-2.0.0-1.21.1-SNAPSHOT.jar |JourneyMap API                |journeymap_api                |2.0.0               |Manifest: NOSIGNATURE
+		[JEI物品管理器] jei-1.21.1-neoforge-19.21.0.247.jar    |Just Enough Items             |jei                           |19.21.0.247         |Manifest: NOSIGNATURE
+		kffmod-5.7.0.jar                                  |Kotlin For Forge              |kotlinforforge                |5.7.0               |Manifest: NOSIGNATURE
+		kuma-api-neoforge-21.0.5-SNAPSHOT.jar             |KumaAPI                       |kuma_api                      |21.0.5-SNAPSHOT     |Manifest: NOSIGNATURE
+		libIPN-neoforge-1.21-6.2.1.jar                    |libIPN                        |libipn                        |6.2.1               |Manifest: NOSIGNATURE
+		server-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.115-universal.jar                   |NeoForge                      |neoforge                      |21.1.115            |Manifest: NOSIGNATURE
+		[席地而坐] sit-1.21-1.3.5.jar                         |Sit                           |sit                           |1.3.5               |Manifest: NOSIGNATURE
+		sodium-neoforge-0.6.5+mc1.21.1.jar                |Sodium                        |sodium                        |0.6.5+mc1.21.1      |Manifest: NOSIGNATURE
+		[精妙背包] sophisticatedbackpacks-1.21-3.20.26.1151.ja|Sophisticated Backpacks       |sophisticatedbackpacks        |3.20.26             |Manifest: NOSIGNATURE
+		[精妙核心] sophisticatedcore-1.21-0.7.13.797.jar      |Sophisticated Core            |sophisticatedcore             |0.7.13              |Manifest: NOSIGNATURE
+		twilightforest-1.21.1-4.6.2780-universal.jar      |The Twilight Forest           |twilightforest                |4.6.2780            |Manifest: NOSIGNATURE
+		[汤姆的简易存储] toms_storage-1.21-2.1.0.jar             |Tom's Simple Storage Mod      |toms_storage                  |2.1.0               |Manifest: NOSIGNATURE
+		[传送石碑／指路石] waystones-neoforge-1.21.1-21.1.5.jar   |Waystones                     |waystones                     |21.1.5              |Manifest: NOSIGNATURE
+		[创世神] worldedit-mod-7.3.8.jar                     |WorldEdit                     |worldedit                     |7.3.8+6939-7d32b45  |Manifest: NOSIGNATURE
+	Crash Report UUID: 1bc10c75-2345-4de7-9770-a2e45ddd24a1
+	FML: 4.0.35
+	NeoForge: 21.1.115
