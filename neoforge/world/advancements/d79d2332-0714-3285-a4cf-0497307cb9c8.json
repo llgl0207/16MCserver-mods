@@ -347,6 +347,7 @@
       "minecraft:blaze": "2024-12-31 21:44:35 +0800",
       "minecraft:pillager": "2025-01-27 19:50:52 +0800",
       "minecraft:skeleton": "2024-12-14 17:38:15 +0800",
+      "minecraft:elder_guardian": "2025-02-12 02:27:16 +0800",
       "minecraft:ravager": "2025-01-27 19:52:48 +0800",
       "minecraft:bogged": "2025-01-25 19:54:26 +0800",
       "minecraft:ghast": "2024-12-31 21:55:23 +0800",
@@ -4753,7 +4754,8 @@
       "twilight_oak_sapling": "2025-01-31 12:46:10 +0800",
       "canopy_log": "2025-01-31 11:49:37 +0800",
       "twilight_oak_log": "2025-01-31 15:24:41 +0800",
-      "rainbow_oak_sapling": "2025-01-31 15:24:49 +0800"
+      "rainbow_oak_sapling": "2025-01-31 15:24:49 +0800",
+      "giant_log": "2025-02-11 20:04:23 +0800"
     },
     "done": false
   },
@@ -5692,9 +5694,10 @@
   },
   "twilightforest:progress_yeti": {
     "criteria": {
-      "previous_progression": "2025-01-31 12:52:43 +0800"
+      "previous_progression": "2025-01-31 12:52:43 +0800",
+      "was_in_fight": "2025-02-11 19:47:48 +0800"
     },
-    "done": false
+    "done": true
   },
   "twilightforest:recipes/misc/lich_banner_pattern": {
     "criteria": {
@@ -5712,6 +5715,7 @@
     "criteria": {
       "meef_stroganoff": "2025-01-31 14:47:45 +0800",
       "maze_wafer": "2025-01-31 14:51:48 +0800",
+      "hydra_chop": "2025-02-12 01:48:20 +0800",
       "cooked_meef": "2025-01-31 12:57:02 +0800"
     },
     "done": false
@@ -5923,9 +5927,11 @@
   },
   "twilightforest:progress_merge": {
     "criteria": {
-      "hydra": "2025-01-31 15:15:07 +0800"
+      "hydra": "2025-01-31 15:15:07 +0800",
+      "snow_queen": "2025-02-11 20:01:31 +0800",
+      "ur_ghast": "2025-02-11 18:53:28 +0800"
     },
-    "done": false
+    "done": true
   },
   "twilightforest:recipes/misc/hydra_banner_pattern": {
     "criteria": {
@@ -6067,9 +6073,10 @@
   },
   "twilightforest:progress_knights": {
     "criteria": {
+      "all_knights": "2025-02-11 18:40:43 +0800",
       "previous_progression": "2025-01-31 15:23:09 +0800"
     },
-    "done": false
+    "done": true
   },
   "twilightforest:recipes/misc/material/armor_shard_cluster": {
     "criteria": {
@@ -6182,6 +6189,866 @@
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2025-01-31 16:07:49 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:grant_patchouli_book": {
+    "criteria": {
+      "tick": "2025-02-11 16:40:20 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:give_smart_slab": {
+    "criteria": {
+      "tick": "2025-02-11 16:40:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-02-11 16:40:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2025-02-11 16:49:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2025-02-11 16:49:22 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:challenge/any_equipment": {
+    "criteria": {
+      "maid_event": "2025-02-11 16:54:02 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:recipes/misc/chair": {
+    "criteria": {
+      "has_wool": "2025-02-11 16:55:35 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:base/craft_chair": {
+    "criteria": {
+      "craft_chair": "2025-02-11 16:55:44 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:base/kill_maid_fairy": {
+    "criteria": {
+      "killed_entity": "2025-02-11 16:56:49 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:base/pickup_power_point": {
+    "criteria": {
+      "maid_event": "2025-02-11 16:56:50 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:maid_base/switch_task": {
+    "criteria": {
+      "maid_event": "2025-02-11 16:57:24 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:maid_base/maid_fishing": {
+    "criteria": {
+      "maid_event": "2025-02-11 16:57:41 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:recipes/misc/hakurei_gohei": {
+    "criteria": {
+      "has_diamond": "2025-02-11 17:00:13 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:recipes/misc/sanae_gohei": {
+    "criteria": {
+      "has_diamond": "2025-02-11 17:00:13 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:base/craft_gohei": {
+    "criteria": {
+      "craft_hakurei_gohei": "2025-02-11 17:00:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-02-11 17:18:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_red_dye": "2025-02-11 17:21:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-02-11 17:21:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-02-11 17:21:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-02-11 17:21:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_red_dye": "2025-02-11 17:21:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_red_dye": "2025-02-11 17:21:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2025-02-11 17:21:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_red_dye": "2025-02-11 17:21:27 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/jungle_log/hollow_jungle_log": {
+    "criteria": {
+      "has_block": "2025-02-11 17:33:25 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:base/build_altar": {
+    "criteria": {
+      "maid_event": "2025-02-11 17:34:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_candle": {
+    "criteria": {
+      "has_gray_dye": "2025-02-11 17:39:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_gray_dye": "2025-02-11 17:39:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-02-11 17:39:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-02-11 17:39:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-02-11 17:39:31 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:maid_base/maid_backpack": {
+    "criteria": {
+      "maid_event": "2025-02-11 17:43:41 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:maid_base/switch_schedule": {
+    "criteria": {
+      "maid_event": "2025-02-11 17:50:47 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:favorability/maid_sit_joy": {
+    "criteria": {
+      "maid_event": "2025-02-11 17:50:48 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:maid_base/maid_kill_mob": {
+    "criteria": {
+      "maid_event": "2025-02-11 17:54:15 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:recipes/misc/chair_show": {
+    "criteria": {
+      "has_redstone": "2025-02-11 17:55:50 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:maid_base/maid_farm": {
+    "criteria": {
+      "maid_event": "2025-02-11 17:58:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_candle": {
+    "criteria": {
+      "has_pink_dye": "2025-02-11 18:00:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-02-11 18:00:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-02-11 18:00:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_pink_dye": "2025-02-11 18:00:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-02-11 18:00:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_pink_dye": "2025-02-11 18:00:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-02-11 18:14:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-02-11 18:14:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-02-11 18:14:47 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:favorability/maid_sleep": {
+    "criteria": {
+      "maid_event": "2025-02-11 18:16:19 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:maid_base/use_servant_bell": {
+    "criteria": {
+      "maid_event": "2025-02-11 18:34:12 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:progress_ur_ghast": {
+    "criteria": {
+      "previous_progression": "2025-02-11 18:40:43 +0800",
+      "was_in_fight": "2025-02-11 18:53:28 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/knight_phantom_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2025-02-11 18:40:49 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:ghast_trap": {
+    "criteria": {
+      "activate_ghast_trap": "2025-02-11 18:52:08 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/ur_ghast_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2025-02-11 18:53:35 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/compressed_blocks/carminite_block": {
+    "criteria": {
+      "has_item": "2025-02-11 18:53:35 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/carminite_builder": {
+    "criteria": {
+      "has_item": "2025-02-11 18:53:35 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/carminite_reactor": {
+    "criteria": {
+      "has_item": "2025-02-11 18:53:35 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:base/change_chair_model": {
+    "criteria": {
+      "maid_event": "2025-02-11 19:05:21 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:base/change_maid_model": {
+    "criteria": {
+      "maid_event": "2025-02-11 19:38:26 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:progress_glacier": {
+    "criteria": {
+      "previous_progression": "2025-02-11 19:47:48 +0800",
+      "was_in_fight": "2025-02-11 20:01:31 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/alpha_yeti_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2025-02-11 19:47:54 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/yeti_helmet": {
+    "criteria": {
+      "has_item": "2025-02-11 19:47:55 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/yeti_chestplate": {
+    "criteria": {
+      "has_item": "2025-02-11 19:47:55 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/yeti_boots": {
+    "criteria": {
+      "has_item": "2025-02-11 19:47:55 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/yeti_leggings": {
+    "criteria": {
+      "has_item": "2025-02-11 19:47:55 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/aurora_slab_slab": {
+    "criteria": {
+      "has_item": "2025-02-11 19:56:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-02-11 19:57:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2025-02-11 19:57:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2025-02-11 19:57:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2025-02-11 19:57:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2025-02-11 19:57:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-02-11 19:57:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2025-02-11 19:57:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2025-02-11 19:57:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-02-11 19:57:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-02-11 19:57:43 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:progress_troll": {
+    "criteria": {
+      "previous_progression": "2025-02-11 20:01:31 +0800"
+    },
+    "done": false
+  },
+  "twilightforest:recipes/misc/snow_queen_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2025-02-11 20:01:36 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/giant_log_to_oak_planks": {
+    "criteria": {
+      "has_item": "2025-02-11 20:04:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-02-11 21:09:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-02-11 21:09:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-02-11 21:09:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-02-11 21:09:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-02-11 21:09:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-02-11 21:09:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-02-11 21:09:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs": {
+    "criteria": {
+      "has_polished_diorite": "2025-02-11 21:12:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab": {
+    "criteria": {
+      "has_polished_diorite": "2025-02-11 21:12:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2025-02-11 21:12:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2025-02-11 21:12:52 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:maid_base/photo_maid": {
+    "criteria": {
+      "maid_event": "2025-02-11 21:23:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_candle": {
+    "criteria": {
+      "has_yellow_dye": "2025-02-11 21:23:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-02-11 21:23:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-02-11 21:23:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_yellow_dye": "2025-02-11 21:23:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-02-11 21:23:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2025-02-11 21:25:57 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:maid_base/chisel_statue": {
+    "criteria": {
+      "maid_event": "2025-02-11 21:28:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-02-11 21:28:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2025-02-11 21:28:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2025-02-12 02:56:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_green_dye": "2025-02-12 02:56:34 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/spiral_bricks": {
+    "criteria": {
+      "has_block": "2025-02-12 02:58:03 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:favorability/favorability_increased": {
+    "criteria": {
+      "maid_event": "2025-02-12 01:25:46 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/twisted_stone_pillar": {
+    "criteria": {
+      "has_block": "2025-02-12 02:58:03 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:maid_base/use_undead_bauble": {
+    "criteria": {
+      "maid_event": "2025-02-12 02:29:15 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:recipes/misc/memorizable_gensokyo": {
+    "criteria": {
+      "has_book": "2025-02-12 02:58:24 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:maid_base/pickup_maid": {
+    "criteria": {
+      "maid_event": "2025-02-12 02:08:19 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/twisted_stone": {
+    "criteria": {
+      "has_block": "2025-02-12 02:58:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-02-12 02:54:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
+    "criteria": {
+      "has_pink_tulip": "2025-02-12 02:56:35 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/compressed_blocks/reversed/arctic_block_to_item": {
+    "criteria": {
+      "has_item": "2025-02-12 03:02:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2025-02-12 02:58:20 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:maid_base/use_item_magnet_bauble": {
+    "criteria": {
+      "maid_event": "2025-02-12 01:38:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2025-02-12 02:58:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-02-12 02:16:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2025-02-12 02:17:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2025-02-12 02:56:35 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/bold_stone_pillar": {
+    "criteria": {
+      "has_block": "2025-02-12 02:58:03 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:maid_base/use_protect_bauble": {
+    "criteria": {
+      "maid_event": "2025-02-12 01:35:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-02-12 02:56:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_gold": {
+    "criteria": {
+      "has_raw_gold_block": "2025-02-12 03:02:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_green_dye": "2025-02-12 02:56:34 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:maid_base/reborn_maid": {
+    "criteria": {
+      "altar_craft": "2025-02-12 01:25:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2025-02-12 02:57:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_candle": {
+    "criteria": {
+      "has_green_dye": "2025-02-12 02:56:34 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:fiery_set": {
+    "criteria": {
+      "fiery_helmet": "2025-02-12 03:13:00 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2025-02-12 02:56:35 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:maid_base/use_nimble_fabric": {
+    "criteria": {
+      "maid_event": "2025-02-12 01:37:15 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2025-02-12 02:56:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wolf_armor": {
+    "criteria": {
+      "has_armadillo_scute": "2025-02-12 02:58:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2025-02-12 02:54:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-02-12 02:54:54 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/compressed_blocks/reversed/carminite_block_to_item": {
+    "criteria": {
+      "has_item": "2025-02-12 03:02:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-02-12 02:56:35 +0800"
+    },
+    "done": true
+  },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2025-02-12 01:29:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2025-02-12 02:56:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-02-12 02:58:40 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/compressed_blocks/reversed/knightmetal_block_ingot": {
+    "criteria": {
+      "has_item": "2025-02-12 03:02:27 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:recipes/misc/entity_id_copy": {
+    "criteria": {
+      "has_book": "2025-02-12 02:58:24 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:favorability/favorability_increased_max": {
+    "criteria": {
+      "maid_event": "2025-02-12 01:25:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-02-12 02:55:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-02-12 02:56:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2025-02-12 02:56:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-02-12 02:56:34 +0800"
     },
     "done": true
   },

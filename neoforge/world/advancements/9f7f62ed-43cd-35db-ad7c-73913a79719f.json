@@ -5810,6 +5810,7 @@
   },
   "twilightforest:progress_hydra": {
     "criteria": {
+      "kill_hydra": "2025-02-11 19:40:31 +0800",
       "trophy": "2025-01-31 15:55:12 +0800",
       "was_in_fight": "2025-01-31 16:01:57 +0800"
     },
@@ -5950,6 +5951,271 @@
   "waystones:recipes/decorations/blank_scroll": {
     "criteria": {
       "has_paper": "2025-02-02 20:59:14 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:grant_patchouli_book": {
+    "criteria": {
+      "tick": "2025-02-11 16:50:48 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:give_smart_slab": {
+    "criteria": {
+      "tick": "2025-02-11 16:50:48 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_dinner": {
+    "criteria": {
+      "hydra_chop": "2025-02-11 16:55:34 +0800",
+      "cooked_meef": "2025-02-11 19:42:56 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-02-11 17:16:10 +0800"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/deepslate_shard": {
+    "criteria": {
+      "has_deepslate": "2025-02-11 17:27:13 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:recipes/misc/hakurei_gohei": {
+    "criteria": {
+      "has_diamond": "2025-02-11 17:39:41 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:recipes/misc/sanae_gohei": {
+    "criteria": {
+      "has_diamond": "2025-02-11 17:39:41 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:recipes/misc/chair_show": {
+    "criteria": {
+      "has_redstone": "2025-02-11 17:46:32 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/spiral_bricks": {
+    "criteria": {
+      "has_block": "2025-02-11 17:53:55 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/twisted_stone_pillar": {
+    "criteria": {
+      "has_block": "2025-02-11 17:53:55 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/twisted_stone": {
+    "criteria": {
+      "has_block": "2025-02-11 17:53:55 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/bold_stone_pillar": {
+    "criteria": {
+      "has_block": "2025-02-11 17:53:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-02-11 19:10:30 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:maid_base/switch_task": {
+    "criteria": {
+      "maid_event": "2025-02-11 19:31:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2025-02-11 19:34:30 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:recipes/misc/chair": {
+    "criteria": {
+      "has_wool": "2025-02-11 19:34:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2025-02-11 19:34:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2025-02-11 19:34:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2025-02-11 19:34:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-02-11 19:34:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-02-11 19:34:32 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/nagastone/smelted_cracked_etched_nagastone": {
+    "criteria": {
+      "has_item": "2025-02-11 19:45:03 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/nagastone/nagastone_stairs_left": {
+    "criteria": {
+      "has_item": "2025-02-11 19:45:03 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/nagastone/nagastone_stairs_right": {
+    "criteria": {
+      "has_item": "2025-02-11 19:45:03 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/nagastone/mossy_etched_nagastone": {
+    "criteria": {
+      "has_item": "2025-02-11 19:45:03 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/etched_nagastone/nagastone_stairs_left": {
+    "criteria": {
+      "has_block": "2025-02-11 19:45:03 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/etched_nagastone/nagastone_stairs_right": {
+    "criteria": {
+      "has_block": "2025-02-11 19:45:03 +0800"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_magnet_upgrade": {
+    "criteria": {
+      "has_advanced_pickup_upgrade": "2025-02-11 20:13:15 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/transformation_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-02-11 22:25:22 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:maid_base/switch_schedule": {
+    "criteria": {
+      "maid_event": "2025-02-11 21:41:29 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/sorting_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-02-11 22:25:22 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/canopy_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-02-11 22:25:22 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/time_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-02-11 22:25:22 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/mining_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-02-11 22:25:22 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/twilight_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-02-11 22:25:22 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:favorability/maid_sleep": {
+    "criteria": {
+      "maid_event": "2025-02-11 21:42:53 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-02-11 22:25:22 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:base/pickup_power_point": {
+    "criteria": {
+      "maid_event": "2025-02-11 21:33:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2025-02-11 21:36:29 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/dark_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-02-11 22:25:22 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:favorability/maid_sit_joy": {
+    "criteria": {
+      "maid_event": "2025-02-11 21:42:03 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:base/kill_maid_fairy": {
+    "criteria": {
+      "killed_entity": "2025-02-11 21:43:54 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:challenge/all_netherite_equipment": {
+    "criteria": {
+      "maid_event": "2025-02-11 21:49:57 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:challenge/any_equipment": {
+    "criteria": {
+      "maid_event": "2025-02-11 21:49:26 +0800"
     },
     "done": true
   },

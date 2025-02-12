@@ -1,66 +1,74 @@
-[022月2025 20:37:57.664] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.115, --fml.fmlVersion, 4.0.35, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
-[022月2025 20:37:57.668] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16
-[022月2025 20:37:57.671] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 22.0.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[022月2025 20:37:57.866] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[022月2025 20:37:57.934] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/D:/16MCserver-mods/neoforge/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2375!/ Service=ModLauncher Env=SERVER
-[022月2025 20:37:58.104] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.115:server]
-[022月2025 20:37:58.126] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.115-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries\net\neoforged\neoforge\21.1.115\neoforge-21.1.115-universal.jar]], reader: mod manifest]
-[022月2025 20:37:58.140] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[JEI物品管理器] jei-1.21.1-neoforge-19.21.0.247.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.146] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[传送石碑／指路石] waystones-neoforge-1.21.1-21.1.5.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.152] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[创世神] worldedit-mod-7.3.8.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.165] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[席地而坐] sit-1.21-1.3.5.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.170] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[搬运] carryon-neoforge-1.21-2.2.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.174] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[水产业2／水产品2] Aquaculture-1.21.1-2.7.10.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.180] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[汤姆的简易存储] toms_storage-1.21-2.1.0.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.185] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[精妙核心] sophisticatedcore-1.21-0.7.13.797.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.189] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[精妙背包] sophisticatedbackpacks-1.21-3.20.26.1151.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.194] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[经验机制改革] Clumps-neoforge-1.21-18.0.0.2.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.198] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[连锁破坏] ftb-ultimine-neoforge-2100.1.0.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.202] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.206] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "artifacts-neoforge-12.0.5.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.210] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "badpackets-neo-0.8.2.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.213] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "balm-neoforge-1.21.1-21.0.23.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.216] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.220] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Clumps-neoforge-1.21.1-19.0.0.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.2.2+1.21.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.228] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftb-library-neoforge-2100.1.4.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.231] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.7.3.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.236] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "InventoryProfilesNext-neoforge-1.21-2.1.2.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.241] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "iris-neoforge-1.8.6+mc1.21.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.245] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Jade-1.21.1-NeoForge-15.9.2.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.249] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-neoforge-1.21.1-6.0.0-beta.37.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.254] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinforforge-5.7.0-all.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.258] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "libIPN-neoforge-1.21-6.2.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.262] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sodium-neoforge-0.6.5+mc1.21.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.270] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "twilightforest-1.21.1-4.6.2780-universal.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
-[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 26 dependencies adding them to mods collection
-[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.1.115-universal.jar, locator: jarinjar, reader: mod manifest]
-[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kuma-api-neoforge-21.0.5-SNAPSHOT.jar" [parent: balm-neoforge-1.21.1-21.0.23.jar, locator: jarinjar, reader: mod manifest]
-[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kfflang-5.7.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar, reader: mod manifest]
-[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-api-v1-3.4.0+acb05a3919.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "neoforge-coremods-21.1.115.jar" [parent: neoforge-21.1.115-universal.jar, locator: jarinjar, reader: mod manifest]
-[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "pngj-2.1.0.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.37.jar, locator: jarinjar]
-[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "common-networking-neoforge-1.0.18-1.21.1.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.37.jar, locator: jarinjar, reader: mod manifest]
-[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jcpp-1.4.14.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar]
-[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kffmod-5.7.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar, reader: mod manifest]
-[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-2.1.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
-[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-reflect-2.1.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
-[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-core-jvm-1.9.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
-[022月2025 20:37:58.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-transformer-2.0.1.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar]
-[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.caffeinemc.sodium-neoforge-0.6.5+mc1.21.1-service.jar" [parent: sodium-neoforge-0.6.5+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-jdk8-1.9.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
-[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "kfflib-5.7.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar, reader: mod manifest]
-[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "s.tf-asm-4.6.2780.jar" [parent: twilightforest-1.21.1-4.6.2780-universal.jar, locator: jarinjar, reader: mod manifest]
-[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk7-2.1.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
-[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk8-2.1.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
-[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-core-jvm-1.7.3.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
-[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-json-jvm-1.7.3.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
-[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "expandability-neoforge-12.0.0.jar" [parent: artifacts-neoforge-12.0.5.jar, locator: jarinjar, reader: mod manifest]
-[022月2025 20:37:58.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-api-neoforge-2.0.0-1.21.1-SNAPSHOT.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.37.jar, locator: jarinjar, reader: mod manifest]
-[022月2025 20:37:58.585] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[122月2025 01:16:17.129] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.115, --fml.fmlVersion, 4.0.35, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[122月2025 01:16:17.134] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16
+[122月2025 01:16:17.137] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 22.0.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[122月2025 01:16:18.142] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[122月2025 01:16:18.194] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/D:/16MCserver-mods/neoforge/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2375!/ Service=ModLauncher Env=SERVER
+[122月2025 01:16:18.373] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.115:server]
+[122月2025 01:16:18.410] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.115-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries\net\neoforged\neoforge\21.1.115\neoforge-21.1.115-universal.jar]], reader: mod manifest]
+[122月2025 01:16:18.421] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[JEI物品管理器] jei-1.21.1-neoforge-19.21.0.247.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.426] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[传送石碑／指路石] waystones-neoforge-1.21.1-21.1.5.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.433] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[创世神] worldedit-mod-7.3.8.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.446] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[席地而坐] sit-1.21-1.3.5.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.451] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[搬运] carryon-neoforge-1.21-2.2.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.457] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[水产业2／水产品2] Aquaculture-1.21.1-2.7.10.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.461] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[汤姆的简易存储] toms_storage-1.21-2.1.0.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.465] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[精妙核心] sophisticatedcore-1.21-0.7.13.797.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.469] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[精妙背包] sophisticatedbackpacks-1.21-3.20.26.1151.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.474] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[经验机制改革] Clumps-neoforge-1.21-18.0.0.2.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.477] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[连锁破坏] ftb-ultimine-neoforge-2100.1.0.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.481] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.485] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "artifacts-neoforge-12.0.5.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.488] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "badpackets-neo-0.8.2.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.491] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "balm-neoforge-1.21.1-21.0.23.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.495] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "caelus-neoforge-7.0.1+1.21.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.500] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.502] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Clumps-neoforge-1.21.1-19.0.0.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.507] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.2.2+1.21.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.510] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftb-library-neoforge-2100.1.4.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.514] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.7.3.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.520] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Icarus-NeoForge-4.3.0.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.524] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "InventoryProfilesNext-neoforge-1.21-2.1.2.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.529] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "iris-neoforge-1.8.6+mc1.21.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.533] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Jade-1.21.1-NeoForge-15.9.2.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.537] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-neoforge-1.21.1-6.0.0-beta.37.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.540] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinforforge-5.7.0-all.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.544] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "libIPN-neoforge-1.21-6.2.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.547] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "packetfixer-neoforge-1.4.4-1.21-to-1.21.3.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.551] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Patchouli-1.21-87-NEOFORGE.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.555] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "resourcefulconfig-neoforge-1.21-3.0.9.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.558] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sodium-neoforge-0.6.5+mc1.21.1.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.562] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Sparkweave-NeoForge-0.507.0.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.567] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "touhoulittlemaid-1.21.1-release-1.1.14-hotfix.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.572] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "twilightforest-1.21.1-4.6.2780-universal.jar" [locator: {mods folder locator at D:\16MCserver-mods\neoforge\mods}, reader: mod manifest]
+[122月2025 01:16:18.878] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 27 dependencies adding them to mods collection
+[122月2025 01:16:18.879] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.1.115-universal.jar, locator: jarinjar, reader: mod manifest]
+[122月2025 01:16:18.879] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kuma-api-neoforge-21.0.5-SNAPSHOT.jar" [parent: balm-neoforge-1.21.1-21.0.23.jar, locator: jarinjar, reader: mod manifest]
+[122月2025 01:16:18.879] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[122月2025 01:16:18.879] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kfflang-5.7.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar, reader: mod manifest]
+[122月2025 01:16:18.879] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-api-v1-3.4.0+acb05a3919.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[122月2025 01:16:18.879] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "neoforge-coremods-21.1.115.jar" [parent: neoforge-21.1.115-universal.jar, locator: jarinjar, reader: mod manifest]
+[122月2025 01:16:18.879] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "pngj-2.1.0.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.37.jar, locator: jarinjar]
+[122月2025 01:16:18.880] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "common-networking-neoforge-1.0.18-1.21.1.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.37.jar, locator: jarinjar, reader: mod manifest]
+[122月2025 01:16:18.880] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "appdirs-1.2.1.jar" [parent: Sparkweave-NeoForge-0.507.0.jar, locator: jarinjar]
+[122月2025 01:16:18.880] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jcpp-1.4.14.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar]
+[122月2025 01:16:18.880] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kffmod-5.7.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar, reader: mod manifest]
+[122月2025 01:16:18.880] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-2.1.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
+[122月2025 01:16:18.880] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-reflect-2.1.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
+[122月2025 01:16:18.880] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-core-jvm-1.9.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
+[122月2025 01:16:18.880] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-transformer-2.0.1.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar]
+[122月2025 01:16:18.880] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[122月2025 01:16:18.881] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.caffeinemc.sodium-neoforge-0.6.5+mc1.21.1-service.jar" [parent: sodium-neoforge-0.6.5+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[122月2025 01:16:18.881] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-jdk8-1.9.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
+[122月2025 01:16:18.881] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "kfflib-5.7.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar, reader: mod manifest]
+[122月2025 01:16:18.881] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "s.tf-asm-4.6.2780.jar" [parent: twilightforest-1.21.1-4.6.2780-universal.jar, locator: jarinjar, reader: mod manifest]
+[122月2025 01:16:18.881] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk7-2.1.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
+[122月2025 01:16:18.881] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk8-2.1.0.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
+[122月2025 01:16:18.881] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar" [parent: iris-neoforge-1.8.6+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[122月2025 01:16:18.881] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-core-jvm-1.7.3.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
+[122月2025 01:16:18.881] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-json-jvm-1.7.3.jar" [parent: kotlinforforge-5.7.0-all.jar, locator: jarinjar]
+[122月2025 01:16:18.881] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "expandability-neoforge-12.0.0.jar" [parent: artifacts-neoforge-12.0.5.jar, locator: jarinjar, reader: mod manifest]
+[122月2025 01:16:18.882] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-api-neoforge-2.0.0-1.21.1-SNAPSHOT.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.37.jar, locator: jarinjar, reader: mod manifest]
+[122月2025 01:16:18.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -69,6 +77,7 @@
 		Artifacts 12.0.5 (artifacts)
 		Bad Packets 0.8.2 (badpackets)
 		Balm 21.0.23 (balm)
+		Caelus API 7.0.1+1.21.1 (caelus)
 		Carry On 2.2.1 (carryon)
 		Cloth Config v15 API 15.0.140 (cloth_config)
 		Clumps 19.0.0.1 (clumps)
@@ -82,6 +91,7 @@
 		FTB Library 2100.1.4 (ftblibrary)
 		FTB Ultimine 2100.1.0 (ftbultimine)
 		GeckoLib 4 4.7.3 (geckolib)
+		Icarus 4.3.0 (icarus)
 		Inventory Profiles Next 2.1.2 (inventoryprofilesnext)
 		Iris 1.8.6+mc1.21.1 (iris)
 		Jade 15.9.2+neoforge (jade)
@@ -93,68 +103,84 @@
 		libIPN 6.2.1 (libipn)
 		Minecraft 1.21.1 (minecraft)
 		NeoForge 21.1.115 (neoforge)
+		Packet Fixer 1.4.4 (packetfixer)
+		Patchouli 1.21-87-NEOFORGE (patchouli)
+		Resourcefulconfig 3.0.9 (resourcefulconfig)
 		Sit 1.3.5 (sit)
 		Sodium 0.6.5+mc1.21.1 (sodium)
 		Sophisticated Backpacks 3.20.26 (sophisticatedbackpacks)
 		Sophisticated Core 0.7.13 (sophisticatedcore)
+		Sparkweave Engine 0.507.0 (sparkweave)
 		The Twilight Forest 4.6.2780 (twilightforest)
 		Tom's Simple Storage Mod 2.1.0 (toms_storage)
+		Touhou Little Maid 1.1.14 (touhou_little_maid)
 		Waystones 21.1.5 (waystones)
 		WorldEdit 7.3.8+6939-7d32b45 (worldedit)
-[022月2025 20:37:59.462] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[022月2025 20:37:59.465] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[022月2025 20:37:59.518] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[022月2025 20:37:59.583] [main/WARN] [mixin/]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
-[022月2025 20:37:59.586] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
-[022月2025 20:37:59.586] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[022月2025 20:37:59.586] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
-[022月2025 20:37:59.586] [main/WARN] [mixin/]: Reference map 'waystones.refmap.json' for waystones.mixins.json could not be read. If this is a development environment you can ignore this message
-[022月2025 20:37:59.587] [main/WARN] [mixin/]: Reference map 'clumps.refmap.json' for clumps.mixins.json could not be read. If this is a development environment you can ignore this message
-[022月2025 20:37:59.587] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[022月2025 20:37:59.594] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
-[022月2025 20:37:59.595] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
-[022月2025 20:37:59.595] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
-[022月2025 20:37:59.596] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
-[022月2025 20:37:59.596] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
-[022月2025 20:37:59.598] [main/WARN] [mixin/]: Reference map 'worldedit-neoforge.mixins.refmap.json' for worldedit-neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[022月2025 20:37:59.605] [main/WARN] [mixin/]: Reference map 'ipnext.refmap.json' for mixins.ipnext.json could not be read. If this is a development environment you can ignore this message
-[022月2025 20:37:59.609] [main/WARN] [mixin/]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
-[022月2025 20:37:59.624] [main/INFO] [Sodium/]: Loaded configuration file for Sodium: 43 options available, 1 override(s) found
-[022月2025 20:37:59.698] [main/WARN] [mixin/]: Reference map 'carryon.refmap.json' for carryon.mixins.json could not be read. If this is a development environment you can ignore this message
-[022月2025 20:38:00.034] [main/WARN] [IMixinConfigPlugin/]: Inventory Profiles Next: Doing our own dependency resolving! Because Forge is being Forge....: https://github.com/MinecraftForge/MinecraftForge/issues/9088
-[022月2025 20:38:00.046] [main/WARN] [mixin/]: Error loading class: dev/isxander/controlify/virtualmouse/VirtualMouseHandler (java.lang.ClassNotFoundException: dev.isxander.controlify.virtualmouse.VirtualMouseHandler)
-[022月2025 20:38:00.047] [main/WARN] [mixin/]: @Mixin target dev.isxander.controlify.virtualmouse.VirtualMouseHandler was not found mixins.ipnext.json:MixinVirtualMouseHandler from mod inventoryprofilesnext
-[022月2025 20:38:00.420] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[022月2025 20:38:06.058] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.115, for MC 1.21.1
-[022月2025 20:38:06.082] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[022月2025 20:38:06.117] [modloading-worker-0/INFO] [twilightforest.beans.TFBeanContext/]: Starting Bean Context
-[022月2025 20:38:06.225] [modloading-worker-0/INFO] [twilightforest.beans.TFBeanContext/]: Bean Context loaded in 108 ms
-[022月2025 20:38:06.471] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[022月2025 20:38:06.486] [modloading-worker-0/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
-[022月2025 20:38:08.723] [modloading-sync-worker/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-common.toml
-[022月2025 20:38:08.736] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Tom's Storage Setup starting
-[022月2025 20:38:08.885] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.21.1&ml=neoforge
-[022月2025 20:38:09.073] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.neoforge.NeoForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@fe71a38]
-[022月2025 20:38:09.074] [modloading-worker-0/INFO] [com.sk89q.worldedit.neoforge.NeoForgeWorldEdit/]: WorldEdit for NeoForge (version 7.3.8+6939-7d32b45) is loaded
-[022月2025 20:38:09.087] [modloading-worker-0/INFO] [org.anti_ad.mc.common.LogBase/]: [libIPN] Server starting...
-[022月2025 20:38:09.144] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.vanilla.VanillaPlugin
-[022月2025 20:38:09.159] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.universal.UniversalPlugin
-[022月2025 20:38:09.162] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.debug.DebugPlugin
-[022月2025 20:38:09.163] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.core.CorePlugin
-[022月2025 20:38:09.164] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.access.AccessibilityPlugin
-[022月2025 20:38:09.164] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from net.blay09.mods.waystones.compat.JadeIntegration
-[022月2025 20:38:09.164] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from com.tom.storagemod.jade.JadePlugin
-[022月2025 20:38:09.165] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from twilightforest.compat.jade.JadeCompat
-[022月2025 20:38:09.328] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[022月2025 20:38:09.450] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/16MCserver-mods/neoforge/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23147!/assets/.mcassetsroot' uses unexpected schema
-[022月2025 20:38:09.450] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/16MCserver-mods/neoforge/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23147!/data/.mcassetsroot' uses unexpected schema
-[022月2025 20:38:10.233] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [clumps] Found status: BETA Current: 19.0.0.1 Target: 19.0.0.1
-[022月2025 20:38:10.233] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Starting version check at https://neoforge.curseupdate.com/32274/journeymap
-[022月2025 20:38:10.725] [Worker-Main-3/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.neoforge.NeoForgePlatform
-[022月2025 20:38:10.982] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1906 recipes
-[022月2025 20:38:11.126] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 1.21.1-6.0.0-beta.37 Target: 1.21.1-6.0.0-beta.35
-[022月2025 20:38:11.126] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [toms_storage] Starting version check at https://raw.githubusercontent.com/tom5454/Toms-Storage/master/version-check-nf.json
-[022月2025 20:38:11.159] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
+[122月2025 01:16:19.734] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[122月2025 01:16:19.739] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[122月2025 01:16:19.839] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[122月2025 01:16:19.926] [main/WARN] [mixin/]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:19.929] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:19.930] [main/WARN] [mixin/]: Reference map 'touhou_little_maid.refmap.json' for touhou_little_maid.mixins.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:19.930] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:19.931] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:19.931] [main/WARN] [mixin/]: Reference map 'patchouli.refmap.json' for patchouli_xplat.mixins.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:19.932] [main/WARN] [mixin/]: Reference map 'waystones.refmap.json' for waystones.mixins.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:19.956] [main/WARN] [mixin/]: Reference map 'sparkweave.refmap.json' for sparkweave.mixins.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:19.957] [main/WARN] [mixin/]: Reference map 'clumps.refmap.json' for clumps.mixins.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:19.958] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:19.962] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:19.963] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:19.963] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:19.964] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:19.964] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:19.972] [main/WARN] [mixin/]: Reference map 'worldedit-neoforge.mixins.refmap.json' for worldedit-neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:19.977] [main/WARN] [mixin/]: Reference map 'ipnext.refmap.json' for mixins.ipnext.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:19.981] [main/WARN] [mixin/]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:20.011] [main/INFO] [Sodium/]: Loaded configuration file for Sodium: 43 options available, 1 override(s) found
+[122月2025 01:16:20.109] [main/WARN] [mixin/]: Reference map 'carryon.refmap.json' for carryon.mixins.json could not be read. If this is a development environment you can ignore this message
+[122月2025 01:16:20.504] [main/WARN] [IMixinConfigPlugin/]: Inventory Profiles Next: Doing our own dependency resolving! Because Forge is being Forge....: https://github.com/MinecraftForge/MinecraftForge/issues/9088
+[122月2025 01:16:20.516] [main/WARN] [mixin/]: Error loading class: dev/isxander/controlify/virtualmouse/VirtualMouseHandler (java.lang.ClassNotFoundException: dev.isxander.controlify.virtualmouse.VirtualMouseHandler)
+[122月2025 01:16:20.518] [main/WARN] [mixin/]: @Mixin target dev.isxander.controlify.virtualmouse.VirtualMouseHandler was not found mixins.ipnext.json:MixinVirtualMouseHandler from mod inventoryprofilesnext
+[122月2025 01:16:20.622] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/MenuScreens$ScreenConstructor for invalid dist DEDICATED_SERVER
+[122月2025 01:16:20.623] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/MenuScreens$ScreenConstructor (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/MenuScreens$ScreenConstructor for invalid dist DEDICATED_SERVER)
+[122月2025 01:16:20.934] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[122月2025 01:16:27.875] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.115, for MC 1.21.1
+[122月2025 01:16:27.885] [modloading-worker-0/ERROR] [Sparkweave ContextHelper/]: Could not determine mod context for class dev.cammiescorner.icarus.Icarus, assuming Minecraft!
+[122月2025 01:16:27.946] [modloading-worker-0/INFO] [dev.tonimatas.packetfixer.PacketFixer/]: Packet Fixer has been initialized successfully
+[122月2025 01:16:27.948] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[122月2025 01:16:27.981] [modloading-worker-0/INFO] [twilightforest.beans.TFBeanContext/]: Starting Bean Context
+[122月2025 01:16:28.130] [modloading-worker-0/INFO] [twilightforest.beans.TFBeanContext/]: Bean Context loaded in 149 ms
+[122月2025 01:16:28.365] [modloading-worker-0/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
+[122月2025 01:16:28.392] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[122月2025 01:16:31.007] [modloading-sync-worker/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-common.toml
+[122月2025 01:16:31.080] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Tom's Storage Setup starting
+[122月2025 01:16:31.318] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.21.1&ml=neoforge
+[122月2025 01:16:31.487] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.neoforge.NeoForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@57baa42f]
+[122月2025 01:16:31.488] [modloading-worker-0/INFO] [com.sk89q.worldedit.neoforge.NeoForgeWorldEdit/]: WorldEdit for NeoForge (version 7.3.8+6939-7d32b45) is loaded
+[122月2025 01:16:31.688] [modloading-worker-0/INFO] [org.anti_ad.mc.common.LogBase/]: [libIPN] Server starting...
+[122月2025 01:16:31.756] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.vanilla.VanillaPlugin
+[122月2025 01:16:31.774] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.universal.UniversalPlugin
+[122月2025 01:16:31.777] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.debug.DebugPlugin
+[122月2025 01:16:31.778] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.core.CorePlugin
+[122月2025 01:16:31.778] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.access.AccessibilityPlugin
+[122月2025 01:16:31.779] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from com.github.tartaricacid.touhoulittlemaid.compat.jade.JadePlugin
+[122月2025 01:16:31.780] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from net.blay09.mods.waystones.compat.JadeIntegration
+[122月2025 01:16:31.781] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from com.tom.storagemod.jade.JadePlugin
+[122月2025 01:16:31.782] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from twilightforest.compat.jade.JadeCompat
+[122月2025 01:16:31.947] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[122月2025 01:16:32.039] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/16MCserver-mods/neoforge/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23154!/assets/.mcassetsroot' uses unexpected schema
+[122月2025 01:16:32.040] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/16MCserver-mods/neoforge/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23154!/data/.mcassetsroot' uses unexpected schema
+[122月2025 01:16:33.399] [Worker-Main-3/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.neoforge.NeoForgePlatform
+[122月2025 01:16:33.445] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [clumps] Found status: BETA Current: 19.0.0.1 Target: 19.0.0.1
+[122月2025 01:16:33.445] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Starting version check at https://neoforge.curseupdate.com/32274/journeymap
+[122月2025 01:16:33.768] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 2042 recipes
+[122月2025 01:16:33.976] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2079 advancements
+[122月2025 01:16:33.981] [main/INFO] [Curios API/]: Loaded 11 curio slots
+[122月2025 01:16:33.983] [main/INFO] [Curios API/]: Loaded 10 curio entities
+[122月2025 01:16:34.314] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 1.21.1-6.0.0-beta.37 Target: 1.21.1-6.0.0-beta.35
+[122月2025 01:16:34.315] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [toms_storage] Starting version check at https://raw.githubusercontent.com/tom5454/Toms-Storage/master/version-check-nf.json
+[122月2025 01:16:34.333] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
 javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:961) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
@@ -254,11 +280,10 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[022月2025 20:38:11.167] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[022月2025 20:38:11.259] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2019 advancements
-[022月2025 20:38:11.265] [main/INFO] [Curios API/]: Loaded 11 curio slots
-[022月2025 20:38:11.268] [main/INFO] [Curios API/]: Loaded 10 curio entities
-[022月2025 20:38:12.302] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
+[122月2025 01:16:34.337] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [packetfixer] Starting version check at https://api.modrinth.com/updates/packet-fixer/forge_updates.json
+[122月2025 01:16:35.036] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [packetfixer] Found status: BETA Current: 1.4.4 Target: null
+[122月2025 01:16:35.036] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[122月2025 01:16:35.307] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
 javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:961) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
@@ -301,73 +326,144 @@ Caused by: java.net.SocketException: Connection reset
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1421) ~[java.net.http:?]
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1421) ~[java.net.http:?]
-[022月2025 20:38:13.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
-[022月2025 20:38:13.223] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[022月2025 20:38:13.223] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[022月2025 20:38:13.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[022月2025 20:38:13.272] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[022月2025 20:38:13.331] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[022月2025 20:38:13.367] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[022月2025 20:38:13.368] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[022月2025 20:38:13.368] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[022月2025 20:38:13.368] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[022月2025 20:38:13.385] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[022月2025 20:38:13.386] [Server thread/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-server.toml
-[022月2025 20:38:13.446] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[022月2025 20:38:14.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[022月2025 20:38:14.495] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[022月2025 20:38:14.650] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 536 ms
-[022月2025 20:38:14.651] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.271s)! For help, type "help"
-[022月2025 20:38:14.700] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[022月2025 20:38:14.705] [Server thread/INFO] [journeymap/]: Loaded null for service interface journeymap.api.services.WebMapService
-[022月2025 20:38:14.706] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.NeoForgeClientHooks@7d03867f for service interface journeymap.api.services.ClientPlatformService
-[022月2025 20:38:14.707] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.NeoForgeHooks@50c0cb8a for service interface journeymap.api.services.CommonPlatformService
-[022月2025 20:45:18.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 0 of a max of 20 players online: 
-[022月2025 20:46:13.868] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kobe_bryant[/127.0.0.1:55643] logged in with entity id 24 at (279.61947000215275, 3.0, 56.59791449347907)
-[022月2025 20:46:13.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kobe_bryant joined the game
-[022月2025 20:51:55.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set the time to 1]
-[022月2025 20:52:08.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Spectator Mode]
-[022月2025 20:52:11.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
-[022月2025 20:52:33.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Survival Mode]
-[022月2025 20:54:57.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
-[022月2025 20:59:10.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kobe_bryant has made the advancement [With Fire It Writes]
-[022月2025 20:59:42.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kobe_bryant was killed
-[022月2025 20:59:42.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Killed kobe_bryant]
-[022月2025 21:03:15.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Spectator Mode]
-[022月2025 21:03:18.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Survival Mode]
-[022月2025 21:03:25.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
-[022月2025 21:03:39.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Survival Mode]
-[022月2025 21:04:03.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
-[022月2025 21:04:51.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Survival Mode]
-[022月2025 21:05:01.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kobe_bryant was slain by Mosquito Swarm
-[022月2025 21:05:02.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Spectator Mode]
-[022月2025 21:05:05.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
-[022月2025 21:05:29.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kobe_bryant was killed
-[022月2025 21:05:29.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Killed 243 entities]
-[022月2025 21:06:44.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Spectator Mode]
-[022月2025 21:06:49.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
-[022月2025 21:07:04.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Survival Mode]
-[022月2025 21:07:29.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
-[022月2025 21:12:26.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Survival Mode]
-[022月2025 21:12:46.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
-[022月2025 21:12:54.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Survival Mode]
-[022月2025 21:13:02.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
-[022月2025 21:13:23.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Survival Mode]
-[022月2025 21:14:24.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Set own game mode to Creative Mode]
-[022月2025 21:19:05.691] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kobe_bryant lost connection: Disconnected
-[022月2025 21:19:05.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kobe_bryant left the game
-[022月2025 21:24:08.023] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kobe_bryant[/127.0.0.1:55714] logged in with entity id 7572 at (101.30000001192093, 115.0, -43.20510984785839)
-[022月2025 21:24:08.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kobe_bryant joined the game
-[022月2025 21:24:19.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kobe_bryant: Stopping the server]
-[022月2025 21:24:19.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[022月2025 21:24:19.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[022月2025 21:24:19.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[022月2025 21:24:19.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[022月2025 21:24:20.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[022月2025 21:24:20.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[022月2025 21:24:20.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
-[022月2025 21:24:20.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[022月2025 21:24:20.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[022月2025 21:24:20.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[022月2025 21:24:20.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[022月2025 21:24:20.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[122月2025 01:16:37.419] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[122月2025 01:16:37.420] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[122月2025 01:16:37.420] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[122月2025 01:16:37.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[122月2025 01:16:37.471] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[122月2025 01:16:37.561] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[122月2025 01:16:37.604] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[122月2025 01:16:37.604] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[122月2025 01:16:37.604] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[122月2025 01:16:37.604] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[122月2025 01:16:37.638] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[122月2025 01:16:37.654] [Server thread/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-server.toml
+[122月2025 01:16:37.741] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[122月2025 01:16:38.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[122月2025 01:16:39.020] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[122月2025 01:16:39.292] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 689 ms
+[122月2025 01:16:39.293] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.665s)! For help, type "help"
+[122月2025 01:16:39.352] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[122月2025 01:16:39.355] [Server thread/INFO] [journeymap/]: Loaded null for service interface journeymap.api.services.WebMapService
+[122月2025 01:16:39.356] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.NeoForgeClientHooks@2a1ee51f for service interface journeymap.api.services.ClientPlatformService
+[122月2025 01:16:39.359] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.NeoForgeHooks@3c831c93 for service interface journeymap.api.services.CommonPlatformService
+[122月2025 01:16:40.614] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[122月2025 01:18:09.877] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Kousaka_Haruka[/127.0.0.1:53574] logged in with entity id 57 at (64.91190248492485, 107.0, -16.32444700522929)
+[122月2025 01:18:10.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kousaka_Haruka joined the game
+[122月2025 01:21:56.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Set own game mode to Creative Mode]
+[122月2025 01:25:35.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kousaka_Haruka has made the advancement [After Afterlife]
+[122月2025 01:25:46.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kousaka_Haruka has made the advancement [With Great Power...]
+[122月2025 01:25:46.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kousaka_Haruka has reached the goal [Comes a Great Responsibility!]
+[122月2025 01:26:08.268] [Server thread/WARN] [mezz.jei.common.network.packets.PacketDeletePlayerItem/]: Player 'literal{Kousaka_Haruka} (d79d2332-0714-3285-a4cf-0497307cb9c8)' tried to delete ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.touhou_little_maid.model_switcher', args=[]}]]]}[style={color=white,hoverEvent=TypedHoverEvent[action=<action show_item>, value=net.minecraft.network.chat.HoverEvent$ItemStackInfo@4747e284]}]' but is currently holding a different ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.air', args=[]}]]]}'.
+[122月2025 01:29:14.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kousaka_Haruka has made the advancement [Amateur Archaeologist]
+[122月2025 01:31:30.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Gave 1 [Fiery Helmet] to Kousaka_Haruka]
+[122月2025 01:35:25.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kousaka_Haruka has made the advancement [Protect!]
+[122月2025 01:37:15.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kousaka_Haruka has made the advancement [Grazed!]
+[122月2025 01:37:51.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Gave 1 [Item Magnet] to Kousaka_Haruka]
+[122月2025 01:38:06.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kousaka_Haruka has made the advancement [Not-so Outta Reach]
+[122月2025 01:41:51.096] [Server thread/WARN] [mezz.jei.common.network.packets.PacketDeletePlayerItem/]: Player 'literal{Kousaka_Haruka} (d79d2332-0714-3285-a4cf-0497307cb9c8)' tried to delete ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='item.minecraft.enchanted_book', args=[]}]]]}[style={color=yellow,hoverEvent=TypedHoverEvent[action=<action show_item>, value=net.minecraft.network.chat.HoverEvent$ItemStackInfo@a64aee5]}]' but is currently holding a different ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.air', args=[]}]]]}'.
+[122月2025 01:42:23.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Gave 1 [Enchanted Book] to Kousaka_Haruka]
+[122月2025 01:43:58.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Set the time to 1000]
+[122月2025 01:44:50.146] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/102, l='ServerLevel[world]', x=132.30, y=123.00, z=-78.30] was struck by lightning LightningBolt['Lightning Bolt'/3660, l='ServerLevel[world]', x=130.50, y=119.00, z=-78.50].
+[122月2025 01:44:50.148] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/103, l='ServerLevel[world]', x=132.70, y=123.00, z=-78.70] was struck by lightning LightningBolt['Lightning Bolt'/3660, l='ServerLevel[world]', x=130.50, y=119.00, z=-78.50].
+[122月2025 01:44:50.149] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/104, l='ServerLevel[world]', x=132.70, y=123.00, z=-78.30] was struck by lightning LightningBolt['Lightning Bolt'/3660, l='ServerLevel[world]', x=130.50, y=119.00, z=-78.50].
+[122月2025 01:48:13.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Set own game mode to Survival Mode]
+[122月2025 01:48:17.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: The difficulty has been set to Hard]
+[122月2025 01:49:04.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Set own game mode to Creative Mode]
+[122月2025 01:51:50.527] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Noa[/127.0.0.1:50771] logged in with entity id 4730 at (64.5, 110.0, -2.5)
+[122月2025 01:51:50.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Noa joined the game
+[122月2025 01:54:32.282] [Server thread/WARN] [mezz.jei.common.network.packets.PacketDeletePlayerItem/]: Player 'literal{Kousaka_Haruka} (d79d2332-0714-3285-a4cf-0497307cb9c8)' tried to delete ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.touhou_little_maid.maid_beacon', args=[]}]]]}[style={color=white,hoverEvent=TypedHoverEvent[action=<action show_item>, value=net.minecraft.network.chat.HoverEvent$ItemStackInfo@3390601b]}]' but is currently holding a different ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.air', args=[]}]]]}'.
+[122月2025 01:54:33.196] [Server thread/WARN] [mezz.jei.common.network.packets.PacketDeletePlayerItem/]: Player 'literal{Kousaka_Haruka} (d79d2332-0714-3285-a4cf-0497307cb9c8)' tried to delete ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.touhou_little_maid.maid_beacon', args=[]}]]]}[style={color=white,hoverEvent=TypedHoverEvent[action=<action show_item>, value=net.minecraft.network.chat.HoverEvent$ItemStackInfo@1e5266ac]}]' but is currently holding a different ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.air', args=[]}]]]}'.
+[122月2025 01:54:34.075] [Server thread/WARN] [mezz.jei.common.network.packets.PacketDeletePlayerItem/]: Player 'literal{Kousaka_Haruka} (d79d2332-0714-3285-a4cf-0497307cb9c8)' tried to delete ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.touhou_little_maid.maid_beacon', args=[]}]]]}[style={color=white,hoverEvent=TypedHoverEvent[action=<action show_item>, value=net.minecraft.network.chat.HoverEvent$ItemStackInfo@1ed3350b]}]' but is currently holding a different ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.air', args=[]}]]]}'.
+[122月2025 01:54:34.865] [Server thread/WARN] [mezz.jei.common.network.packets.PacketDeletePlayerItem/]: Player 'literal{Kousaka_Haruka} (d79d2332-0714-3285-a4cf-0497307cb9c8)' tried to delete ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.touhou_little_maid.maid_beacon', args=[]}]]]}[style={color=white,hoverEvent=TypedHoverEvent[action=<action show_item>, value=net.minecraft.network.chat.HoverEvent$ItemStackInfo@9c333dce]}]' but is currently holding a different ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.air', args=[]}]]]}'.
+[122月2025 01:54:35.668] [Server thread/WARN] [mezz.jei.common.network.packets.PacketDeletePlayerItem/]: Player 'literal{Kousaka_Haruka} (d79d2332-0714-3285-a4cf-0497307cb9c8)' tried to delete ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.touhou_little_maid.maid_beacon', args=[]}]]]}[style={color=white,hoverEvent=TypedHoverEvent[action=<action show_item>, value=net.minecraft.network.chat.HoverEvent$ItemStackInfo@9c339160]}]' but is currently holding a different ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.air', args=[]}]]]}'.
+[122月2025 01:54:36.546] [Server thread/WARN] [mezz.jei.common.network.packets.PacketDeletePlayerItem/]: Player 'literal{Kousaka_Haruka} (d79d2332-0714-3285-a4cf-0497307cb9c8)' tried to delete ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.touhou_little_maid.maid_beacon', args=[]}]]]}[style={color=white,hoverEvent=TypedHoverEvent[action=<action show_item>, value=net.minecraft.network.chat.HoverEvent$ItemStackInfo@216c1f6a]}]' but is currently holding a different ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.air', args=[]}]]]}'.
+[122月2025 01:54:38.001] [Server thread/WARN] [mezz.jei.common.network.packets.PacketDeletePlayerItem/]: Player 'literal{Kousaka_Haruka} (d79d2332-0714-3285-a4cf-0497307cb9c8)' tried to delete ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='item.minecraft.arrow', args=[]}]]]}[style={color=white,hoverEvent=TypedHoverEvent[action=<action show_item>, value=net.minecraft.network.chat.HoverEvent$ItemStackInfo@87ca2d5a]}]' but is currently holding a different ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.air', args=[]}]]]}'.
+[122月2025 01:56:25.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Noa has made the advancement [Taste the Rainbow]
+[122月2025 01:56:53.062] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=73, y=104, z=-2}
+[122月2025 01:57:07.745] [Server thread/WARN] [mezz.jei.common.network.packets.PacketDeletePlayerItem/]: Player 'literal{Kousaka_Haruka} (d79d2332-0714-3285-a4cf-0497307cb9c8)' tried to delete ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='item.twilightforest.hydra_chop', args=[]}]]]}[style={color=yellow,hoverEvent=TypedHoverEvent[action=<action show_item>, value=net.minecraft.network.chat.HoverEvent$ItemStackInfo@e80b9e04]}]' but is currently holding a different ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.air', args=[]}]]]}'.
+[122月2025 01:59:08.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Gave 1 [Power Glove] to Kousaka_Haruka]
+[122月2025 01:59:14.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Gave 1 [Feral Claws] to Kousaka_Haruka]
+[122月2025 01:59:32.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Gave 1 [Running Shoes] to Kousaka_Haruka]
+[122月2025 01:59:47.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Gave 1 [Advanced Magnet Upgrade] to Kousaka_Haruka]
+[122月2025 01:59:52.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Gave 1 [Advanced Compacting Upgrade] to Kousaka_Haruka]
+[122月2025 02:00:16.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Gave 1 [Stack Upgrade Tier 4] to Kousaka_Haruka]
+[122月2025 02:00:59.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Gave 1 [Crafting Upgrade] to Kousaka_Haruka]
+[122月2025 02:02:56.224] [Netty Server IO #4/ERROR] [net.minecraft.network.Connection/]: Exception caught in connection
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at MC-BOOTSTRAP/io.netty.buffer@4.1.97.Final/io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.97.Final.jar%23103!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.buffer@4.1.97.Final/io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.97.Final.jar%23103!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.97.Final.jar%23108!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.97.Final.jar%23108!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar%23108!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar%23108!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar%23108!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar%23108!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23105!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23105!/:4.1.97.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+[122月2025 02:02:56.247] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Noa lost connection: Disconnected
+[122月2025 02:02:56.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Noa left the game
+[122月2025 02:04:58.601] [Server thread/WARN] [mezz.jei.common.network.packets.PacketDeletePlayerItem/]: Player 'literal{Kousaka_Haruka} (d79d2332-0714-3285-a4cf-0497307cb9c8)' tried to delete ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.touhou_little_maid.cchess', args=[]}]]]}[style={color=white,hoverEvent=TypedHoverEvent[action=<action show_item>, value=net.minecraft.network.chat.HoverEvent$ItemStackInfo@c5fa1338]}]' but is currently holding a different ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.air', args=[]}]]]}'.
+[122月2025 02:08:19.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kousaka_Haruka has made the advancement [Princess Carry]
+[122月2025 02:12:33.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Gave 1 [Favorability Tool] to Kousaka_Haruka]
+[122月2025 02:13:00.230] [Server thread/WARN] [mezz.jei.common.network.packets.PacketDeletePlayerItem/]: Player 'literal{Kousaka_Haruka} (d79d2332-0714-3285-a4cf-0497307cb9c8)' tried to delete ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='item.touhou_little_maid.favorability_tool_add', args=[]}]]]}[style={color=white,hoverEvent=TypedHoverEvent[action=<action show_item>, value=net.minecraft.network.chat.HoverEvent$ItemStackInfo@81eaf1e0]}]' but is currently holding a different ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.air', args=[]}]]]}'.
+[122月2025 02:16:04.567] [Server thread/WARN] [mezz.jei.common.network.packets.PacketDeletePlayerItem/]: Player 'literal{Kousaka_Haruka} (d79d2332-0714-3285-a4cf-0497307cb9c8)' tried to delete ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='item.minecraft.cow_spawn_egg', args=[]}]]]}[style={color=white,hoverEvent=TypedHoverEvent[action=<action show_item>, value=net.minecraft.network.chat.HoverEvent$ItemStackInfo@5407ebc6]}]' but is currently holding a different ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.air', args=[]}]]]}'.
+[122月2025 02:17:00.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kousaka_Haruka has reached the goal [Hired Help]
+[122月2025 02:18:21.838] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Noa[/127.0.0.1:50927] logged in with entity id 9898 at (72.71179624056046, 107.0, -5.978441607300025)
+[122月2025 02:18:21.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Noa joined the game
+[122月2025 02:19:22.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Noa was slain by Kousaka_Haruka
+[122月2025 02:19:33.930] [Server thread/WARN] [mezz.jei.common.network.packets.PacketDeletePlayerItem/]: Player 'literal{Kousaka_Haruka} (d79d2332-0714-3285-a4cf-0497307cb9c8)' tried to delete ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.grass_block', args=[]}]]]}[style={color=white,hoverEvent=TypedHoverEvent[action=<action show_item>, value=net.minecraft.network.chat.HoverEvent$ItemStackInfo@96f16e22]}]' but is currently holding a different ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.air', args=[]}]]]}'.
+[122月2025 02:19:37.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Noa was slain by Kousaka_Haruka
+[122月2025 02:19:37.672] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Noa moved too quickly! 1.6939846017566822,8.0,-13.819894873834688
+[122月2025 02:19:37.675] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Noa moved too quickly! 1.6939846017566822,8.0,-13.819894873834688
+[122月2025 02:19:44.246] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Noa lost connection: Disconnected
+[122月2025 02:19:44.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Noa left the game
+[122月2025 02:26:44.324] [Server thread/INFO] [journeymap/]: Kousaka_Haruka teleported to -197.0 91.0 -289.0 minecraft:overworld
+[122月2025 02:26:44.330] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kousaka_Haruka moved too quickly! -254.48272698445356,-33.28260082566287,-216.68200699105523
+[122月2025 02:29:15.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kousaka_Haruka has reached the goal [Oooh, I'm a Zombie]
+[122月2025 02:30:42.713] [Server thread/WARN] [mezz.jei.common.network.packets.PacketDeletePlayerItem/]: Player 'literal{Kousaka_Haruka} (d79d2332-0714-3285-a4cf-0497307cb9c8)' tried to delete ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='item.minecraft.warden_spawn_egg', args=[]}]]]}[style={color=white,hoverEvent=TypedHoverEvent[action=<action show_item>, value=net.minecraft.network.chat.HoverEvent$ItemStackInfo@74eb18bf]}]' but is currently holding a different ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.air', args=[]}]]]}'.
+[122月2025 02:33:59.015] [Server thread/WARN] [mezz.jei.common.network.packets.PacketDeletePlayerItem/]: Player 'literal{Kousaka_Haruka} (d79d2332-0714-3285-a4cf-0497307cb9c8)' tried to delete ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='item.minecraft.warden_spawn_egg', args=[]}]]]}[style={color=white,hoverEvent=TypedHoverEvent[action=<action show_item>, value=net.minecraft.network.chat.HoverEvent$ItemStackInfo@74eb18bf]}]' but is currently holding a different ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.air', args=[]}]]]}'.
+[122月2025 02:40:32.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Created team [TEAM]]
+[122月2025 02:40:38.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Added Kousaka_Haruka to team [TEAM]]
+[122月2025 02:40:52.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Updated the color for team [TEAM] to aqua]
+[122月2025 02:41:52.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Set own game mode to Survival Mode]
+[122月2025 02:42:15.654] [Server thread/INFO] [journeymap/]: Kousaka_Haruka teleported to 70.5 107.0 -9.5 minecraft:overworld
+[122月2025 02:42:15.655] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kousaka_Haruka moved too quickly! 295.8138686633332,19.0,229.65732007563466
+[122月2025 02:42:15.664] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kousaka_Haruka moved too quickly! 295.8138686633332,19.0,229.65732007563466
+[122月2025 02:42:15.668] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kousaka_Haruka moved too quickly! 295.8138686633332,19.0,229.65732007563466
+[122月2025 02:42:15.671] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kousaka_Haruka moved too quickly! 295.8138686633332,19.0,229.65732007563466
+[122月2025 02:42:15.674] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kousaka_Haruka moved too quickly! 295.8138686633332,19.0,229.65732007563466
+[122月2025 02:42:15.678] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kousaka_Haruka moved too quickly! 295.8138686633332,19.0,229.65732007563466
+[122月2025 02:42:15.681] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kousaka_Haruka moved too quickly! 295.8138686633332,19.0,229.65732007563466
+[122月2025 02:42:19.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
+[122月2025 02:42:20.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Set own game mode to Survival Mode]
+[122月2025 02:42:30.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Gave 1 [Inventory Connector] to Kousaka_Haruka]
+[122月2025 02:42:48.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
+[122月2025 02:42:50.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Set own game mode to Survival Mode]
+[122月2025 02:42:51.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Set own game mode to Creative Mode]
+[122月2025 03:00:15.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
+[122月2025 03:00:52.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Set own game mode to Creative Mode]
+[122月2025 03:09:29.267] [Server thread/WARN] [mezz.jei.common.network.packets.PacketDeletePlayerItem/]: Player 'literal{Kousaka_Haruka} (d79d2332-0714-3285-a4cf-0497307cb9c8)' tried to delete ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='item.artifacts.feral_claws', args=[]}]]]}[style={color=aqua,hoverEvent=TypedHoverEvent[action=<action show_item>, value=net.minecraft.network.chat.HoverEvent$ItemStackInfo@2a20da37]}]' but is currently holding a different ItemStack 'translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.air', args=[]}]]]}'.
+[122月2025 03:10:31.211] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityMaid['entity.touhou_little_maid.maid'/20945, l='ServerLevel[world]', x=109.50, y=103.00, z=24.50]
+[122月2025 03:10:31.959] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityMaid['entity.touhou_little_maid.maid'/20946, l='ServerLevel[world]', x=108.50, y=103.00, z=25.50]
+[122月2025 03:12:34.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Gave 1 [Wolf Armor] to Kousaka_Haruka]
+[122月2025 03:12:50.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kousaka_Haruka: Gave 1 [Fiery Helmet] to Kousaka_Haruka]
+[122月2025 03:17:24.198] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kousaka_Haruka lost connection: Disconnected
+[122月2025 03:17:24.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kousaka_Haruka left the game
+[122月2025 03:17:28.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[122月2025 03:17:28.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[122月2025 03:17:28.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[122月2025 03:17:28.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[122月2025 03:17:28.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[122月2025 03:17:28.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[122月2025 03:17:28.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[122月2025 03:17:28.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[122月2025 03:17:28.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[122月2025 03:17:28.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[122月2025 03:17:28.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[122月2025 03:17:28.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[122月2025 03:17:28.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
