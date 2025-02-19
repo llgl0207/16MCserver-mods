@@ -6123,15 +6123,57 @@
     },
     "done": true
   },
-  "twilightforest:recipes/transportation/transformation_chest_boat": {
+  "touhou_little_maid:base/pickup_power_point": {
     "criteria": {
-      "has_boat": "2025-02-11 22:25:22 +0800"
+      "maid_event": "2025-02-11 21:33:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2025-02-11 21:36:29 +0800"
     },
     "done": true
   },
   "touhou_little_maid:maid_base/switch_schedule": {
     "criteria": {
       "maid_event": "2025-02-11 21:41:29 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:favorability/maid_sit_joy": {
+    "criteria": {
+      "maid_event": "2025-02-11 21:42:03 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:favorability/maid_sleep": {
+    "criteria": {
+      "maid_event": "2025-02-11 21:42:53 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:base/kill_maid_fairy": {
+    "criteria": {
+      "killed_entity": "2025-02-11 21:43:54 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:challenge/any_equipment": {
+    "criteria": {
+      "maid_event": "2025-02-11 21:49:26 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:challenge/all_netherite_equipment": {
+    "criteria": {
+      "maid_event": "2025-02-11 21:49:57 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/transformation_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-02-11 22:25:22 +0800"
     },
     "done": true
   },
@@ -6165,27 +6207,9 @@
     },
     "done": true
   },
-  "touhou_little_maid:favorability/maid_sleep": {
-    "criteria": {
-      "maid_event": "2025-02-11 21:42:53 +0800"
-    },
-    "done": true
-  },
   "twilightforest:recipes/transportation/mangrove_chest_boat": {
     "criteria": {
       "has_boat": "2025-02-11 22:25:22 +0800"
-    },
-    "done": true
-  },
-  "touhou_little_maid:base/pickup_power_point": {
-    "criteria": {
-      "maid_event": "2025-02-11 21:33:17 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/terracotta": {
-    "criteria": {
-      "has_clay_block": "2025-02-11 21:36:29 +0800"
     },
     "done": true
   },
@@ -6195,27 +6219,15 @@
     },
     "done": true
   },
-  "touhou_little_maid:favorability/maid_sit_joy": {
+  "sophisticatedbackpacks:recipes/misc/backpack": {
     "criteria": {
-      "maid_event": "2025-02-11 21:42:03 +0800"
+      "has_leather": "2025-02-12 22:54:03 +0800"
     },
     "done": true
   },
-  "touhou_little_maid:base/kill_maid_fairy": {
+  "sophisticatedbackpacks:recipes/misc/upgrade_base": {
     "criteria": {
-      "killed_entity": "2025-02-11 21:43:54 +0800"
-    },
-    "done": true
-  },
-  "touhou_little_maid:challenge/all_netherite_equipment": {
-    "criteria": {
-      "maid_event": "2025-02-11 21:49:57 +0800"
-    },
-    "done": true
-  },
-  "touhou_little_maid:challenge/any_equipment": {
-    "criteria": {
-      "maid_event": "2025-02-11 21:49:26 +0800"
+      "has_leather": "2025-02-12 22:54:03 +0800"
     },
     "done": true
   },
